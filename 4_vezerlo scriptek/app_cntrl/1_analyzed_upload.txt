@@ -1,0 +1,31 @@
+#
+#       name     : analyzed_upload
+#       auth     : Diosi Istvan
+#       descript : A pst és cmnt folderekbe pakoljuk le az aktuális feldolgozási ciklusban feldolgozott objektumok ID-jait
+#                  A script a lokális fájlrendszerre lerakott fájlokat másola fel a hdfs-re
+#
+#
+#       last upd.:      2016-04-12 Az elemzett azonosítók felmásolása a HDFS-re a H\K miatt.
+#                       2016-04-23 Az elemzett result felmásolása a HDFS-re, tehát a ktg,smt,tag-ek
+#
+#
+#
+# ------- !!!!!!!!!!! Az elemzett result-ok törlése  !!!!!!!!!!!!!!!!! ------------
+# hadoop fs -rm -skipTrash /user/facebook/sntmnt_result/tag/*
+# hadoop fs -rm -skipTrash /user/facebook/sntmnt_result/smt/*
+# hadoop fs -rm -skipTrash /user/facebook/sntmnt_result/ktg/*
+
+#-------- Az aktuális feldolgozási ciklusban elemzettek eredmények felmásolása a HDFS-re -----
+hadoop fs -put /home/res.hu.corp/facebook/sntmnt_output/smt /user/facebook/sntmnt_result/
+hadoop fs -put /home/res.hu.corp/facebook/sntmnt_output/ktg /user/facebook/sntmnt_result/
+hadoop fs -put /home/res.hu.corp/facebook/sntmnt_output/tag /user/facebook/sntmnt_result/
+
+# ------- !!!!!!!!!!! Az elemzett elemek ID-jainak törlése  !!!!!!!!!!!!!!!!! ---------------------
+# --- Ezt akkor kell megejteni, ha program, vagy egyéb hiba miatt újra akarok MINDEN-t elemezni ---
+# hadoop fs -rm -skipTrash /user/facebook/analyzed/cmnt/*
+# hadoop fs -rm -skipTrash /user/facebook/analyzed/pst/*
+#-------- Az aktuális feldolgozási ciklusban elemzettek ID-k felmásolása a HDFS-re -----
+
+hadoop fs -put /home/res.hu.corp/facebook/analyzed/pst /user/facebook/analyzed/
+hadoop fs -put /home/res.hu.corp/facebook/analyzed/cmnt /user/facebook/analyzed/
+

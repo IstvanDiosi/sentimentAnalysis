@@ -1,0 +1,19 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			feed basic and lateral views
+--			
+--			create comment_sso
+--
+--		last update
+--			20151215 created	d.i.
+--
+--		
+--
+-- --------------------------------------------------------------------
+
+-- create section -----------------------------------------------------
+
+CREATE OR REPLACE VIEW mtsbi.comment_sso  AS
+select * from mtsbi.comment_all_lat f
+left semi join tlkm_sso tlkm
+on (f.comment_sender_id = tlkm.sso_user_id)

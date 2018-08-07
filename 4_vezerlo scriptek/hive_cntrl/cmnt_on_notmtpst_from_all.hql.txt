@@ -1,0 +1,14 @@
+#
+#       name     : cmnt_on_notpst_from_all.hql
+#       auth     : Diosi Istvan
+#       descript : A script az azonos nevû Hive view-t futtatja le, majd a result set-et lerakja a local adott folderébe
+#                  Innen fogja felolvasni az R elemzésre. A szövegfájl minden futáskor inicializálódik, így csak az utolsó
+#                  futás eredményét tartalmazza.
+#
+#
+#
+#       last upd.: 	2016-04-12
+#			2016-05-06 random olvasás
+#
+#
+beeline -n facebook -p wffU6cGphxpZFStPSfzFPmnjZKpTpaqt -u 'jdbc:hive2://172.28.164.1:10000/default;principal=hive/crpr00vip00@RES.HU.CORP' -e 'select * from sntmnt.x_cmnt_on_notmtpst_from_all order by rand() limit 5000' > /home/res.hu.corp/facebook/sntmnt_input/cmnt_on_notmtpst_from_all.txt

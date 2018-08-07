@@ -1,0 +1,26 @@
+# -- --------------------------------------------------------------------
+# --            description
+# --                    scheduler által utemezett script
+# --                    A batch egy teljes elemzesi ciklus minden
+# --                    lépését tartalmazza
+# --
+# --            Author  Istvan Diosi 30/515-3902
+# --
+# --            last update
+# --                    20160420 created        d.i.
+# --
+# --
+# --
+# --
+# --
+# -- --------------------------------------------------------------------
+
+echo ----- HIVE TMP generalas ---------------------------------
+./hive_cntrl/all_hql
+echo ----- R-elemzo futtatasa ---------------------------------
+./app_cntrl/startSentimentAnalysis
+echo ----- Result transport a HDFS-re -------------------------
+./app_cntrl/analyzed_upload
+echo ----- Temporary files clean ------------------------------
+./app_cntrl/tmp_cleaner
+echo --- # A feldolgozasi ciklus sikeresen befejezodott # -----

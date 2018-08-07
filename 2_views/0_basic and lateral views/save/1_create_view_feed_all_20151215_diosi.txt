@@ -1,0 +1,16 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			feed basic and lateral views
+--			
+--			create feed_all
+--
+--		last update
+--			20151215 created	d.i.
+--
+--		
+--
+-- --------------------------------------------------------------------
+
+-- create section -----------------------------------------------------
+CREATE OR REPLACE VIEW mtsbi.feed_all  AS
+select * from mtsbi.fb_feed;

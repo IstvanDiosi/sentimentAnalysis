@@ -1,0 +1,101 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			sntmnt views			
+--			create view cmnt_on_allpst_from_sso
+--			
+--		Author	Istvan Diosi 30/515-3902
+--
+--
+--		Bárki feedjére felrakott felrakott bárki általi posztoknak 
+--		SSO user általi kommentje
+--
+--		last update
+--			20151225 created			d.i.
+--			20160126 telekom			d.i.
+--			20160223 új igény			d.i.
+--			20160501 reg exp befûzése		d.i.
+--				  regexp_replace(cmnt_message,'\n',' ') 
+--			
+--			
+--
+--		
+--
+-- --------------------------------------------------------------------
+-------- telekom-os descartes szorzatos -------------------------------
+
+create or replace view sntmnt.cmnt_on_allpst_from_sso as
+select 
+  distinct
+       message_id
+      ,regexp_replace(message,'\n',' ') message
+      ,from_id  message_sender_id
+      ,regexp_replace(cmnt_message,'\n',' ') cmnt_message
+      ,cmnt_id
+      ,cmnt_sender_id
+      ,cmnt_created_time
+from 
+ mtsbi.feed_all feed
+,mtsbi.tlkm_sso  sso
+where   
+     feed.cmnt_sender_id = sso.sso_user_id           
+and  cmnt_message       !='NULL'
+and  length(trim(regexp_replace(cmnt_message,'\n',' ')))!=0
+and  substr(cmnt_created_time,1,10)>'2015-01-01';     
+
+--------------- joinolt tsystemes ----------------------------
+
+
+create or replace view sntmnt.cmnt_on_allpst_from_sso as
+select 
+  distinct
+       message_id
+      ,message 
+      ,from_id  message_sender_id
+      ,cmnt_message
+      ,cmnt_id
+      ,cmnt_sender_id
+      ,cmnt_created_time
+from 
+     mtsbi.feed_all f
+left semi join mtsbi.tlkm_sso tlkm
+    on f.fbi_parent_id = tlkm.sso_user_id           
+and  f.cmnt_message       !='NULL';   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////
+SSO-s komment sincs letöltve???   >>>>>> 	0
+SSO-s message 			  >>>>>> 	5142
+
+
+create or replace view proba_view as
+select 
+  distinct
+       message_id
+      ,message 
+      ,from_id
+      ,cmnt_message
+      ,cmnt_id
+      ,cmnt_sender_id
+from 
+       mtsbi.feed_all  feed
+      ,mtsbi.tlkm_sso  sso
+where   
+     feed.from_id =sso.sso_user_id           
+and  cmnt_message !='NULL';  
+
+             
+
+

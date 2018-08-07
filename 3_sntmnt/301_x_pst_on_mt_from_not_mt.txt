@@ -1,0 +1,30 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			sntmnt views
+--			
+--			create view sntmnt.x_pst_on_mt_from_not_mt 
+--			
+--			H := sntmnt.pst_on_mt_from_not_mt 
+--			K := sntmnt.anlyzd_pst
+--			A H\K halmazt generálja le amely az R egyik inputja lesz.
+--
+--			
+--		Author	Istvan Diosi 30/515-3902
+--		
+--
+--		last update
+--
+--			20160221 igényként			d.i
+--			20160318 message_created_time befûzése  d.i
+--			
+--			
+--		
+--
+-- --------------------------------------------------------------------
+create or replace view sntmnt.x_pst_on_mt_from_not_mt as
+select *                                                              
+ from sntmnt.pst_on_mt_from_not_mt pst                                                              
+ left outer join sntmnt.anlyzd_pst anlyzd                                                
+ on pst.message_id = anlyzd.oid                                            
+ where                                                                                    
+     anlyzd.oid is null;  

@@ -1,0 +1,50 @@
+-- --------------------------------------------------------------------------------------------------
+-- 		description
+--			sntmnt views
+--			
+--			create view sntmnt.end_result_all
+--			
+--			Az R-elemzõ minden egyes ciklusban elõállított
+--			smt,ktg,tag-jeinek a reult_ktg,result_smt,result_tag
+--			állományainak joinolt változata
+--
+--			Ez az állomány lesz az ATG inputja
+--			
+--		Author	Istvan Diosi 30/515-3902
+--
+--		
+--			
+--		last update
+--
+--			20160423 create			d.i
+--			
+--			
+--			
+--		
+--
+-- --------------------------------------------------------------------------------------------------
+
+create or replace view sntmnt.end_result_all as
+select 
+      smt.message_sender_id
+     ,smt.message_id
+     ,smt.cmnt_sender_id
+     ,smt.cmnt_id
+     ,ktg.ktg
+     ,tag.tag
+     ,smt.sentiment 
+from  result_smt smt 
+left outer join result_ktg ktg 
+  on       smt.message_id        =  ktg.message_id
+       and smt.message_sender_id =  ktg.message_sender_id
+-- ---- ez itt a bõvítés -----------------------
+       and smt.cmnt_sender_id    =  ktg.cmnt_sender_id
+       and smt.cmnt_id           =  ktg.cmnt_id
+left outer join result_tag tag
+  on       smt.message_id        =  tag.message_id
+       and smt.message_sender_id =  tag.message_sender_id
+-- ---- ez itt a bõvítés -----------------------
+       and smt.cmnt_sender_id    =  tag.cmnt_sender_id
+       and smt.cmnt_id           =  tag.cmnt_id;
+
+

@@ -1,0 +1,31 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			sntmnt views
+--			
+--			create view sntmnt.x_cmnt_on_notmtpst_from_all
+--			
+--			H := sntmnt.cmnt_on_notmtpst_from_all
+--			K := sntmnt.anlyzd_pst
+--			A H\K halmazt generálja le amely az R egyik inputja lesz.
+--			
+--		Author	Istvan Diosi 30/515-3902
+--
+--		
+--			
+--		last update
+--
+--			20160410 igényként			d.i
+--			
+--			
+--			
+--		
+--
+-- --------------------------------------------------------------------
+
+create or replace view x_cmnt_on_notmtpst_from_all AS
+select *                                                              
+ from sntmnt.cmnt_on_notmtpst_from_all cmnt                                                              
+ left outer join sntmnt.anlyzd_cmnt anlyzd                                                
+ on cmnt.cmnt_id = anlyzd.oid                                            
+ where                                                                                    
+     anlyzd.oid is null;  

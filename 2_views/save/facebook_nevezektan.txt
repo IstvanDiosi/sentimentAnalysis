@@ -1,0 +1,38 @@
+
+
+----------- pre_app views ----------------
+
+
+
+
+
+----------- basic an lateral views ------------------
+user_all -
+user_sso -
+user_nsso -
+
+user_all_lat -
+user_sso_lat -
+user_nsso_lat -
+
+user_all_lat_ldwnl -
+user_sso_lat_ldwnl -
+user_nsso_lat_ldwnl -
+
+-------------------------------------------
+feed_all -
+feed_sso -
+feed_nsso -
+
+feed_all_lat -
+feed_sso_lat -
+feed_nsso_lat -
+
+feed_all_lat_ldwnl -
+feed_sso_lat_ldwnl -
+feed_nsso_lat_ldwnl -
+
+--------- external tables ----------------
+fb_user
+fb_feed
+....

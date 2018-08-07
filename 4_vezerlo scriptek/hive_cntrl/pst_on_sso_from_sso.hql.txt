@@ -1,0 +1,14 @@
+#
+#       name     : pst_on_sso_from_sso.hql
+#       auth     : Diosi Istvan
+#       descript : A script az azonos nevû Hive view-t futtatja le, majd a result set-et lerakja a local adott folderébe
+#                  Innen fogja felolvasni az R elemzésre. A szövegfájl minden futáskor inicializálódik, így csak az utolsó
+#                  futás eredményét tartalmazza.
+#
+#
+#
+#       last upd.: 	2016-04-12
+#			2016-05-05 randomizálás
+#
+#
+beeline -n facebook -p wffU6cGphxpZFStPSfzFPmnjZKpTpaqt -u 'jdbc:hive2://172.28.164.1:10000/default;principal=hive/crpr00vip00@RES.HU.CORP' -e 'select * from sntmnt.x_pst_on_sso_from_sso order by rand() limit 5000' > /home/res.hu.corp/facebook/sntmnt_input/pst_on_sso_from_sso.txt

@@ -1,0 +1,145 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			feed basic and lateral views
+--			
+--			create feed_all_lat
+--
+--		last update
+--			20151215 created	d.i.
+--			20151223 modif fbi fields
+--
+--		
+--
+-- --------------------------------------------------------------------
+Módosított 20151223 - aktuális -
+-- create section -----------------------------------------------------
+-- ez a kettõ segéd view, azáttekinthetõség miatt d.i. ----------------
+-----------------------------------------------------------------------
+create or replace view mtsbi.feed_vw0 as
+select 
+       	fbi_object_type,
+	fbi_expiry_time,
+	fbi_root_type,
+	fbi_root,
+	fbi_parent_type,
+	fbi_object_reference,
+	fbi_parent_id,
+	fbi_page,
+	fbi_id,
+	fbi_level,
+    	exp.message,
+    	exp.created_time message_created_time,
+    	exp.type message_type,
+    	exp.id message_id,
+	exp.`from`.name from_name, 
+	exp.`from`.id from_id, 
+	exp.`from`.category from_category,
+	exp.likes	like_of_message,
+	exp.comments	comment_of_message
+       from mtsbi.fb_feed
+     LATERAL VIEW outer explode(data) dual as exp	
+
+-- where fbi_parent_type = 'user' or fbi_parent_type = 'page';
+
+
+create or replace view mtsbi.feed_vw1 as
+select 
+       	fbi_object_type,
+	fbi_expiry_time,
+	fbi_root_type,
+	fbi_root string,
+	fbi_parent_type,
+        fbi_root,
+	fbi_object_reference,
+	fbi_parent_id,
+	fbi_page,
+	fbi_id,
+	fbi_level,
+    	message,
+    	message_created_time,
+    	message_type,
+    	message_id,
+	from_name, 
+	from_id, 
+	from_category,
+	like_of_message.data likes_data, 
+	comment_of_message.data comments_data
+  from mtsbi.feed_vw0
+
+----------------- Ez itt a végsõ, teljesen kibontott view -------------------
+
+create or replace view mtsbi.feed_all_lat as
+select 
+       	fbi_object_type,
+	fbi_expiry_time,
+	fbi_root_type,
+	fbi_root string,
+	fbi_parent_type,
+        fbi_root,
+	fbi_object_reference,
+	fbi_parent_id,
+	fbi_page,
+	fbi_id,
+	fbi_level,
+    	message,
+    	message_created_time,
+    	message_type,
+    	message_id,
+	from_name, 
+	from_id, 
+	from_category,
+------------------------------------------------
+	explikes.id	liker_id,
+	explikes.name	liker_name,
+	expcomm.`from`.id as cmnt_sender_id,
+	expcomm.`from`.name as cmnt_sender_name,
+	expcomm.message cmnt_message,
+	expcomm.id cmnt_id,
+	expcomm.like_count cmnt_like_count,
+	expcomm.created_time cmnt_created_time
+----------------------------------------------
+  from mtsbi.feed_vw1
+  LATERAL VIEW outer explode(likes_data) dual as explikes
+  LATERAL VIEW outer explode(comments_data) dual as expcomm
+
+
+
+20151212 regi
+-- create section -----------------------------------------------------
+-- ez itt egy segéd view, azáttekinthetõség miatt d.i. ----------------
+-----------------------------------------------------------------------
+create or replace view mtsbi.feed_vw0 as
+select 
+       	fbi_download_time,                 
+       	fbi_level,                            
+	fbi_object_reference,                   
+	fbi_root,                 
+	fbi_parent_type,                   
+	fbi_parent_id,
+        exp.comments.data as comments_data,				
+        exp.created_time as created_time,
+        exp.message as message,
+        exp.id as id
+from mtsbi.feed_all
+     LATERAL VIEW outer explode(data) dual as exp	
+where fbi_parent_type = 'user';
+
+
+create or replace view mtsbi.feed_all_lat as
+select 
+       	fbi_download_time,                 
+       	fbi_level,                            
+	fbi_object_reference,                   
+	fbi_root,                 
+	fbi_parent_type,                   
+	fbi_parent_id,
+       	created_time,
+       	message,
+       	exp1.like_count as comment_like_count,
+      	exp1.id as comment_id,
+       	exp1.created_time as comment_created_time,
+       	exp1.message as comment_of_message,
+       	exp1.`from`.id as comment_sender_id,
+        exp1.`from`.name as comment_sender_name
+from mtsbi.feed_vw0
+lateral view outer explode(comments_data) dual as exp1

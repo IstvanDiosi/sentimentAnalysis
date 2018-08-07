@@ -1,0 +1,24 @@
+# -- --------------------------------------------------------------------
+# --            description
+# --                    scheduler, amely a flow-menedzser folyamatot
+# --                      ütemezi.
+# --
+# --            Author  Istvan Diosi 30/515-3902
+# --
+# --            last update
+# --                    20160420 created        d.i.
+# --
+# --
+# --
+# --
+# --
+# -- --------------------------------------------------------------------
+#bin/sh
+
+while true
+do
+  ./start_MTSBI
+  echo --- Következõ feldolgozási ciklus 30 s belül indul ---
+  date
+  sleep 30
+done

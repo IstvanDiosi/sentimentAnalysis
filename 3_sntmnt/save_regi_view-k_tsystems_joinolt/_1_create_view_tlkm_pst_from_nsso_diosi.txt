@@ -1,0 +1,35 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			sntmnt views
+--			
+--			create view tlkm_pst_from_nsso
+--
+--		A tlkm feedjére a TLKM által felrakott posztok 
+--		amit NEM SSO user és NEM a telekom psztolt.
+--
+--
+--		last update
+--			20151225 created	d.i.
+--			20160127 telekom	d.i.
+--			
+--
+--		
+--
+-- --------------------------------------------------------------------
+create or replace view sntmnt.tlkm_pst_from_nsso as
+select 
+       distinct
+       from_id
+      ,message_id
+      ,message 
+from mtsbi.feed_all f
+left outer join mtsbi.tlkm_sso tlkm
+on f.fbi_parent_id = tlkm.sso_user_id
+where 
+    tlkm.sso_user_id is null                      -- azaz nem sso-s user           
+and f.from_id!='189246802995'                     -- nem is a telekom maga
+and fbi_object_reference='189246802995/feed';     -- és persze a telekom feedjérõl van szó
+
+
+
+

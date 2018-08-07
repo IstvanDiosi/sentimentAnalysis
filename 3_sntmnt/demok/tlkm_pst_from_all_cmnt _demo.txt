@@ -1,0 +1,169 @@
+
+select substr(cmnt_message,1,150) from tlkm_pst_from_all_cmnt;
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+|                                                                           _c0                                                                           |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+| Hogy ez a Telekom milyen gyors :-D , persze erre nem tudnak választ adni. Mondjuk amennyi hozzáértõ ember ül ott, a helyükben én sem tenném. Megkérdez  |
+| Apszulut nemlehet  neten rendelni alandoan hibatirki a megrendelés közben.                                                                              |
+| Kedves Telecom!                                                                                                                                         |
+|                                                                                                                                                         |
+| Black friday (weekend) alkalmából szerettem volna készüléket rendelni tegnap este óta. Az oldal folyamatosan 'technikai karbantartás                    |
+| Szia! Nagyon sajnáljuk, hogy kellemetlenséget tapasztaltál. Minden bizonnyal egyedi esetrõl lehet szó, ugyanis a készülékcserével kiküldött SIM kártyá  |
+| 1412-est már próbáltam nem is egyszer de ott csak egy gép van és nem kapcsol senkit ??                                                                  |
+| Nem mondták még nektek,hogy itt demokrácia és szólásszabadság van?                                                                                      |
+| Ezt a 90%-ot honnan szülted? :D Es ki vagy te, hogy az en nevemben nyilatkoz?                                                                           |
+|                                                                                                                                                         |
+| Ákos? :D                                                                                                                                                |
+| Kedves Dániel!                                                                                                                                          |
+|                                                                                                                                                         |
+| Akármelyik menüpontot végighallgattam, egyik végén sem hangzott el olyan,hogy ügyintézõ kapcsolása.                                                     |
+| Egyenleg feltöltés elõtt voltam, é                                                                                                                      |
+| Soha,a legundorítóbb banda!                                                                                                                             |
+| nick JR, ZDF,kika, sat1,RTL Deutschland is képesek vagytok pénzt kiadni az is ingyen nézhetõ mûholdon ...(nagyvilág,filmvilágcsomag)                    |
+| Nem, mar a kosárban ha azt választom hogy nem vásárlok tovább hanemm továbblépek akkor irja ki amikor kiválasztanam hol veszem át es hol fizetem gondo  |
+| Az árakat is elírhatnák lefele irányba                                                                                                                  |
+| Kirugtak egy nogyulolo seggfejet, ennyi tortent.                                                                                                        |
+| 1,13 ? nekem 0,5 van ...                                                                                                                                |
+| akkor megkapom a kedvezményt......                                                                                                                      |
+| Tablet akkor is jár, ha épp lejár a hûségidõd! Igaz nem ingyen. De a 11500 forintos ár szinte ingyen van! Amúgy pl aranykártyás elõfizetõk is vehetnek  |
+| Kedves Zoltán! Természetesen minden bejegyzésre válaszolunk, ami tartalmaz kérdést, illetve kérést. Örömmel olvastuk, hogy már megoldódott a probléma.  |
+| Ha Január.7ig kell befizetni a számlát,de Január 5én tudod befizetni,nembaj mert a határidõ elött befizetted és nem gond ha késik a száma mert azt ugy  |
+| üzlet politika az egész                                                                                                                                 |
+| Szia! Próbáltad már a vevõegységeket újraindítani?                                                                                                      |
+| Ennyi erõvel futáros vagy egyéb átvételi pontos rendelést is választhattam volna... Az gyorsabb.                                                        |
+| Kedves Zsuzsanna! A Hívószámkijelzés szolgáltatás a kényelmi szolgáltatások körébe tartozik, ami csak kiegészítõ opcióként vehetõ igénybe, és nincs az  |
+| @Cecília Az ügyfélszolgálati számaink elérésénél fõ szempontunk az volt, hogy kedvezni tudjunk mind Otthoni mind Mobil ügyfeleinknek, bármelyik üzletá  |
+| Köszönöm! Rendben helyreállt minden! Én pont a tájékoztatás hiányát sérelmeztem, mert ahogy most, már pénteken is jelezhették volna itt, hogy ne aggód  |
+| Szia! Elnézésed kérjük az adódott kellemetlenségért! Igyekeztünk a Telekom Facebook profil oldalán folyamatos tájékoztatást nyújtani levelezési rendsz  |
+| Uristen nem tudtal iphonet venni joeg gyertes segitsetek hivjuk a mentoket.                                                                             |
+| Szia Imre! A tegnapi napon több Elõfizetõt érintõ hiba állt fenn, melyet mûszaki munkatársaink még aznap javítottak. Az okozott kellemetlenségekért el  |
+| Érdemes megvárni a sablonszöveget is! :)                                                                                                                |
+| A legújabb informácioink alapján 2026.december 23.-ától lesz elérhetõ megértést köszönjük                                                               |
+| :D                                                                                                                                                      |
+| Mintha nem tettem volna.. :)                                                                                                                            |
+| Szia Béla! Itt a Facebook-on sajnos nincs lehetõségünk megnézni, hogy pontosan mi történt a Te esetedben, azonban érdemes ellenõrizni a számla kiállít  |
+| Júlia nem akart a földön jarni. Szinte szallok futás kozben. Persze nem vagyok Júlia ????                                                               |
+| Ezt a kibekapcsolást amit írtál nem tudom honnan veszed de nem hiszem hogy igaz                                                                         |
+| Kedves Mihály! Másik hozzászólásodnál válaszoltunk Neked. Várjuk leveled, és segítünk!                                                                  |
+| Sziasztok Tomi, Zsolt, Márton, Barnabás, Adrienn, Károly! A probléma közelebbi vizsgálatához szeretnénk tõletek adatokat kérni a jelenség kapcsán, meg  |
+| Nekem is volt, hogy lecapták a telefont. Szombaton visszahívást ígértek és csesztek azóta is visszahívni. Jó lenne ha békjén hagynák a magyarokat és e  |
+| Szia:)A netpluszm akció hivószámonként egyszer vehetö igénybe,ha nincs megfelelö összeg a kártyádon felfüggesztésre kerül,s ha feltöltöd,és levonható   |
+| T-mobilt soha...                                                                                                                                        |
+| Várom a választ de nincs..                                                                                                                              |
+| á, nem szokásuk válaszolni, illetve ha mégis, akkor annyit, hogy ügyfélszolgálatot hívjam :( de a net továbbra sem javul, hol van, hol nincs :(         |
+| Szia Zsu! Elõfordulhat, hogy megnövekedett forgalom miatt (fõként az esti órákban) hosszabb lehet a várakozási idõ, melyért ezúton is elnézésedet kérj  |
+| Köszönöm a választ, azonban aggaszt, hogy annyi sok lehet a garanciális készülékekkel a gond, hogy nem áll rendelkezésre megfelelõ készlet a cserére,   |
+| Kedves Géza! A Digi Sport a Digi szolgáltató saját adója. A Digi Sport csatornakínálatunkba kerülése érdekében tárgyalásokat folytattunk az adó tulajd  |
+| Lassan az üzletekben sem lehet. Legalábbis nekem mindig ezt mondják...                                                                                  |
+| Szeretnék ilyen idõsen ennyire  friss lenni  szellemileg ??                                                                                             |
+| Azoknál ingyen, akik állandóan drágítanak mindent? Na, ne viccelj már!                                                                                  |
+| Nem erdekel  semi tobe man semi todej                                                                                                                   |
+| Kedves Péter! Õszintén sajnáljuk a személyes ügyintézés során tapasztalt problémákat és kellemetlenségeket! Domino kártyás szerzõdés esetében, amennyi  |
+| Sziasztok! Igen, mûködni fog, de ehhez még további türelmedet kérjük! Az új Online felületünk egyszerûbb kezelhetõséget és bõvített funkciókat fog biz  |
+| Szia Levente!                                                                                                                                           |
+| A közelmúltban nem volt olyan nyereményjátékunk amin Iphone 6-ost lehetett nyerni, így valóban visszaélés történhetett. Ha Te nem nevezt                |
+| Szia István! Nagyon sajnáljuk, hogy a szolgáltatás mûködése közben problémát tapasztaltál. Mindenféleképpen szeretnénk Neked segíteni, ezért kérjük, h  |
+| Most keresek valami appot amivel tudom rögzíteni a beszélgetést mert fel kell tenni a facebookra                                                        |
+| Sajnos az                                                                                                                                               |
+| Szia! Elõfordulhat, hogy valamilyen technikai hiba miatt nem teljesítettük még megrendelésedet, azonban amennyiben több csatornán jelezted felénk a pr  |
+| Teljesen egyetértek E.László bejegyzésével, nálunk u.ez a helyzet, se hibaelhárítás, se tájékoztatás. Tegnapi (26-ai)  hibabejelentésünkre nem reagált  |
+| Beteg aki használja                                                                                                                                     |
+| 3 db mobil elofizetest szerettem volna MA befizetni... a hetveget nem otthon toltom... es egyiknel se jottek be a szamlak... hiba tortent a betoltesko  |
+| Gyönyörû társaság.Nem csodálom hogy nem járok ilyen helyekre :D                                                                                         |
+| Szia Tímea! Ahogy a másik posztodnál is írtuk, válaszoltunk a privát üzenetedre. ^Dániel                                                                |
+| bar a lassan egy eve huzodo fejlesztesek is ilyen popecul haladnanak, kedves MATÁV!                                                                     |
+| Szia Gábor! Egy korábbi hozzászólásodnál már válaszoltunk Neked. Kérjük, írd meg, hogy melyik településen tapasztalod a problémát. Ezt követõen utána   |
+| Köszi!                                                                                                                                                  |
+| Szia! Köszönjük szépen az észrevételedet! Továbbítottuk illetékes mûszaki kollégáink részére a bejelentést. A munkálatok helyreállításáig türelmedet k  |
+| Hibajegy újranyitásának kérése. 72 órán túl panasztétel kíséretében kötbér igény jelzése.                                                               |
+| Akkor ezt meg nyertuk Fradisták :D                                                                                                                      |
+| Bérci Mária hozzászólásához csak annyit: senki ne szerzõdjön a Telekommal! A saját érdekében.                                                           |
+| De ez negatív diszkrimináció a nem Budapesten élõ emberek számára! Gusztustalan.                                                                        |
+| Szia Balázs! Az imént válaszoltunk ennél a kommentednél: http://on.fb.me/1WvCKGx ^Dániel                                                                |
+| Ez az *_*                                                                                                                                               |
+| Kedves Kristóf! Elnézését kérjük a kellemetlenségek miatt. Vállalatunk törekszik ügyfeleink magas szintû és teljes körû kiszolgálására, e mellett term  |
+| Szia Attila! Ezúton is elnézést kérünk az okozott kellemetlenségek miatt. Szeretnénk Neked segíteni, amennyiben a probléma továbbra is fennáll, pontos  |
+| Szia Magdolna! Sajnáljuk, hogy ilyen problémákat tapasztalsz. Bejelentetted már a hibát? Ha még nem, akkor a http://www.telekom.hu/irjonnekunk oldalon  |
+| Szia! Szomorúan olvastuk, hogy ismét hibát tapasztaltál szolgáltatásunkkal kapcsolatban. Jelezted már a 1412/4-es menüpontban vagy a www.telekom.hu/ir  |
+| Máramár nem,elfáradtam.                                                                                                                                 |
+| Eluntézni meg nemtudok bemenni mivel manjíval közlekedem,fárasztó az urazás.Üdv.László.                                                                 |
+| Ez ki?                                                                                                                                                  |
+| 29-es körzet, itt eddig csak UPC volt :)                                                                                                                |
+| Szia Gábor! Jelenleg a felhasználói élmény javítása érdekében technikai karbantartást végzünk az online felületen. Emiatt elõfordulhat, hogy a belépés  |
+| Meglevõ elõfizetéssel mikor lehet elõrendelni a telefont?                                                                                               |
+| Szia! 503 meg 403 forbidden ilyeneket írt. Telefonokat akartam nézni de a facebookal sem tudtam belépni de rá 1-2órára megoldódott                      |
+| http://www.fradi.hu/hu/labdarugas/nb-i/hirek/egyutt-erosebben-/20151128/c/12272                                                                         |
+| Én is 2015.11.30-kor kértem Netmánia M-et, de a weboldal szerint Netmánia S van és 9,58 Mb/s.et mérek.                                                  |
+| Szia Mariann! Sajnos nem tudjuk, hogy mi lehet ennek az oka, mert ha nem telefonálsz, akkor az egyenlegednek sem szabadna csökkennie. Az esetleg nem f  |
+| Ezt én már nyáron kiszúrtam. :D                                                                                                                         |
+|                                                                                                                                                         |
+| BOLDOG ÚJ ÉVET,                                                                                                                                         |
+| Hát ez jó xd megy a porno fényes nappal :D                                                                                                              |
+| http://valasz.hu/itthon/az-akos-ugy-fonakja-ennyi-no-van-a-magyar-telekomcegek-vezeteseben-116644                                                       |
+| Nem tudom miert nem latszik                                                                                                                             |
+| mindenki, aki tud!                                                                                                                                      |
+| Én annak örülnék, hogy normálisan mûködjön a TVGO. Folyton leáll, kimerevedik, pufferel stb. Még jó, hogy fizetek érte, ha direktben ez ingyenes is.    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+|                                                                           _c0                                                                           |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+| Szia Imre! Õszintén sajnáljuk, amiért ilyen negatív tapasztalatokat szereztél a várakozási idõ, szolgáltatásunk minõségét, illetve kínálatát tekintve.  |
+| Raadasul az üzletben is többször van, hogy NEM lehet fizetni, mint hogy lehet ??                                                                        |
+| Telefonom ébreszt.....                                                                                                                                  |
+| Sziasztok! A megoldáson folyamatosan nagy erõkkel dolgozunk, hogy a javítás a lehetõ legrövidebb idõn belül megtörténjen. További türelmeteket és megé  |
+| Kedves József! Folyamatos fejlesztjük hálózatunkat, hogy optikai szolgáltatásunk minél több területen elérhetõvé váljon, azonban településenként (lakc  |
+| Azt megtaláltam, én "dedikált" email elérhetõséget szerettem volna. A probléma már személyes ügyintézéssel megoldódott. Legközelebb ha probléma van, i  |
+| Aham....Szép szép , de a bluetooth telefonálási lehetõség + ?                                                                                           |
+| http://m.hvg.hu/tudomany/20150201_jay_z_bevasarolt_a_spotify_banhatja                                                                                   |
+| ??...http://youtu.be/Hat1Hc9SNwE.                                                                                                                       |
+| grtuuu nagyon jo képek:)) fõleg a pályaudvaros :)                                                                                                       |
+| jaja                                                                                                                                                    |
+| Talán itt olvastam,állítólag rájuk nem vonatkozik az ötperces szabály.De ne kérdezzétek hogy miért.                                                     |
+| HÁT NEM ROSSZ                                                                                                                                           |
+| Szabadság szerelem, Meseautó, Csak szex és más semmi.                                                                                                   |
+| Tatabányán, a  Szelim-barlangban forgatták az Eragon címû film egyes részeit.                                                                           |
+| Jó és akkor a nem tudjuk pontosan elfogadható?                                                                                                          |
+| :D                                                                                                                                                      |
+| Sziasztok! Megérkezett a videó is a bevetésrõl, ajánljuk figyelmetekbe! :) http://youtu.be/WB5JPAOXgY0                                                  |
+| csak elöfizetéses mobil havidijak és percek http://www.telekom.hu/static/sw/download/arvaltozas_havidijas_ugyfeleknel_20150701.pdf                      |
+| Szia József! Nagyon sajnáljuk, hogy ilyen sokszor kaptad meg az értesítõ üzenetet. A mai napon már nem érkeztek rendszerüzenetek?                       |
+| Szia! Egyeztetünk illetékes kollegáinkkal arról, hogy a készülékedre várható-e frissítés. Visszajelzésünkig türelmed kérjük!                            |
+| Sokszor nem mûködik,ez már alap...                                                                                                                      |
+| A "kóceráj" nagyon találó erre a cégre!!!!!!!   Csak a pénzeket nyelik be a szolgáltatásuk egy nagy NULLA! Ha bemegyek ügyet intézni hozzájuk olyan em  |
+| Én a lottó számaimat várom ki húzzák :)                                                                                                                 |
+| Kedves Anikó! Köszönjük szépen az eddigi türelmedet! Egyeztettünk illetékes munkatársainkkal, a beállításhoz be kell lépni a "mail kontaktok naptárak"  |
+| Szia! Miben lehetünk a segítségedre?^Ildikó                                                                                                             |
+| szét van csúszva teljesen a telekom....                                                                                                                 |
+| Jobb lenne ha inkább  a panaszos ügyeket intéznék!!!!                                                                                                   |
+| Szia Géza! Úgy látjuk, Roland már a segítségedre sietett:) Kódolatlan digitális kábelszolgáltatásunk kínálata valóban megegyezik az analóg kábelTV kín  |
+| Szia Kinga! Megértük álláspontodat, amit nem tudsz használni azt nyilván fizetni sem szeretnéd. Bejelentetted a hibát a 1412-es vonalunkon? Pontosan m  |
+| Kedves Tamás! Kérjük, a 1430-as hívószámunkon vagy írásban www.telekom.hu/irjonnekunk oldalra feltöltve jelezzétek, ha a telefonálassal kapcsolatosan   |
+| Másik szolgáltatódnál nem lesz technikai karbantartás szerinted?                                                                                        |
+| Köszönöm szépen a kupont, mellyel meghálálják, hogy 10 éve vagyok az ügyfelük. Nem probléma, hogy ez alatt a 10 év alatt feltöltõkártyás voltam, és az  |
+| Nekem már rég van :-D                                                                                                                                   |
+| Szia Gábor! Rendelkezel 4G-képes díjcsomaggal, illetve készülékkel? Ha nem vagy benne biztos, hogy ez mit jelent, akkor kérjük, írd meg a díjcsomagod   |
+| Milyen magy meccsrõl??                                                                                                                                  |
+| Oda van írva hogy miért! Technikai probléma miatt. Hívd fel a 1412-es számot és kérj javítást                                                           |
+| https://www.telekom.hu/telekomfiok/regisztracio?4                                                                                                       |
+| Szia! A TVGO-n elérhetõ csatornák bõvítése folyamatban van, így bízunk abban, hogy hamarosan megtalálható lesz a kínálatban az Eurosport is. ^Gabriell  |
+| Szia Márton!  Szerzõdéses termék rendelése esetén (új havidíjas elõfizetés, kedvezményes készülékcsere, Domino készülékcsomag, Domino SIM csomag) csak  |
+| Megfelelõ emberek voltak a megfelelõ feladaton.A kormánynak nem segítenétek?                                                                            |
+| De azt az okos terorristát is megnézném aki vpn nélkül intézi a terror teendõit free wifin ??                                                           |
+| Jusztíí Takács Pitner Éva ! Játszatok!!!                                                                                                                |
+| Jó iOS-re is?                                                                                                                                           |
+| Régóta használom. Nagyon jó.                                                                                                                            |
+| Szia Zoltán! Amennyiben a készülék meghibásodása garanciális probléma, akkor természetesen javítják neked. Javasoljuk, hogy vidd be a készüléket egy g  |
+| Szia Gábor! Sajnáljuk, hogy nem sikerült elérned mûszaki csoportunkat. Hibát nem csak telefonon tudsz bejelenteni, megteheted levélben a www.telekom.h  |
+| Alap, hogy Depeche Mode :) és G'N'R                                                                                                                     |
+| Ezt távolról senki nem fogja neked a pontos vonali körülmények nélkül megmondani. 1412 hiba bejelentése.                                                |
+| Szia Géza! A helyi csatornák kivételével tértünk át a kódolatlan digitális sugárzásra, ezek továbbra is analógként foghatóak. Ha nem a helyi csatornák  |
+| Ennél csak jobb lehet...                                                                                                                                |
+| Elnézést hogy ide írok,de az internetem nagyon lassú néhol el is megy fél órákra,mióta ez az új router van!!                                            |
+| Nálunk szombat óta nem mûködik a t-home.hu oldal...                                                                                                     |
+| Szia, kedves László! Honlapunk karbantartása még folyamatban van, további türelmed kérjük, míg újra teljes funkcionalitással elérhetõ lesz. Ha szeretn  |
+| aztán fizess rá egy rakat pénzt a semmiért                                                                                                              |
+| Most kaptam egy garanciaban cserélt "új" telefont ami hibás...nagy élmény volt elmondhatom :DDD                                                         |
+| Szia Géza! Pontosan hol szeretnéd igénybe venni nagysebességû (maximum 150 Mbit/s) mobilinternet hálózatunkat? Elküldöd nekünk a pontos címet privát ü  |
+| Társasjátékból NEM lehet kinõni. Pont :)                                                                                                                |
+| Igazán nagyon örömmel tölt el minket, hogy Te is használod ezt a remek alkalmazást és elégedett vagy vele:) Köszönjük a visszajelzést!^Ildikó

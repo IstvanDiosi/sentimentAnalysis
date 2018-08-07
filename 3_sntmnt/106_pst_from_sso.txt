@@ -1,0 +1,35 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			sntmnt views			
+--			create view pst_from_sso
+--			
+--		Author	Istvan Diosi 30/515-3902
+--
+--			
+--		Az SSO-s userek által felrakott (bárki feedjére) posztok
+--		
+--
+--		last update
+--
+--			20160221  újigényként
+--			20160318  messge_created_time befûzése
+--			20160501  regular exp. alkapmalzása a message-nél
+--				  regexp_replace(f.message,'\n',' ') 
+--		                  regexp_replace(substring(message,1,50),'\n',' ')
+--		
+-- -------------------------------------------------------------------- 
+CREATE or replace VIEW sntmnt.pst_from_sso AS 
+select distinct  
+        f.fbi_parent_id                   
+       ,f.from_id       
+       ,f.message_created_time                   
+       ,f.message_id     
+       -- ,`f`.`message`                     
+       ,regexp_replace(f.message,'\n',' ')  message                        
+ from  mtsbi.feed_all f                   
+      ,mtsbi.tlkm_sso tlkm                
+ where                                          
+         f.from_id = tlkm.sso_user_id   
+    and  f.message!='NULL'                  
+    and  length(trim(regexp_replace(f.message,'\n',' ')))!=0
+    and  substr(f.message_created_time,1,10)>'2015-01-01';

@@ -1,0 +1,34 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			sntmnt views
+--			
+--			create view tlkm_pst_from_tlkm_cmnt
+--
+--		A tlkm feedjére felrakott posztoknak 
+--		TLKM általi kommentje.
+--
+--		last update
+--			20151225 created	d.i.
+--			20160126 telekom	d.i.
+--
+--			
+--
+--		
+--
+-- --------------------------------------------------------------------
+create or replace view sntmnt.tlkm_pst_from_tlkm_cmnt as
+select 
+  distinct
+       message_id
+      ,message 
+      ,from_id
+      ,cmnt_message
+      ,cmnt_id
+      ,cmnt_sender_id
+from mtsbi.feed_all
+where
+    fbi_object_reference='189246802995/feed'   -- telekom feed-jérõl van szó
+and cmnt_message !='NULL'                      -- van comment
+and from_id = '189246802995';                  -- tlkm küldte a comment-et
+
+

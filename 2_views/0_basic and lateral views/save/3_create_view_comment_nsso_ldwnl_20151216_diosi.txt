@@ -1,0 +1,23 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			feed basic and lateral views
+--			
+--			create comment_nsso_ldwnl
+--
+--		last update
+--			20151216 created	d.i.
+--
+--		
+--
+-- --------------------------------------------------------------------
+
+-- create section -----------------------------------------------------
+create or replace view mtsbi.comment_nsso_dwnl as
+select f.* 
+from 
+     mtsbi.comment_nsso f 
+     right join (select id,max(fbi_download_time) last_dwnld from mtsbi.comment_nsso group by id) m
+ on        
+      m.last_dwnld = f.fbi_download_time
+where
+     m.id  = f.id; 

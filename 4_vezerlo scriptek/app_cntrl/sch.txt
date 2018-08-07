@@ -1,0 +1,14 @@
+#
+#     Változók definiálása
+#
+#
+
+interval="1m"
+
+while true
+do
+  Rscript a.R
+  date
+  echo "Hostname: $(hostname)"
+  sleep $interval
+done

@@ -1,0 +1,51 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			feed basic and lateral views
+--			
+--			create feed_nsso_lat
+--
+--		last update
+--			20151215 created	d.i.
+--
+--		
+--
+-- --------------------------------------------------------------------
+
+-- create section -----------------------------------------------------
+-- ez itt egy segéd view, azáttekinthetõség miatt d.i. ----------------
+-----------------------------------------------------------------------
+create or replace view mtsbi.feed_nsso_vw0 as
+select 
+       	fbi_download_time,                 
+       	fbi_level,                            
+	fbi_object_reference,                   
+	fbi_root,                 
+	fbi_parent_type,                   
+	fbi_parent_id,
+        exp.comments.data as comments_data,				
+        exp.created_time as created_time,
+        exp.message as message,
+        exp.id as id
+from mtsbi.feed_nsso
+     LATERAL VIEW outer explode(data) dual as exp	
+where fbi_parent_type = 'user';
+
+
+create or replace view mtsbi.feed_nsso_lat as
+select 
+       	fbi_download_time,                 
+       	fbi_level,                            
+	fbi_object_reference,                   
+	fbi_root,                 
+	fbi_parent_type,                   
+	fbi_parent_id,
+       	created_time,
+       	message,
+       	exp1.like_count as comment_like_count,
+      	exp1.id as comment_id,
+       	exp1.created_time as comment_created_time,
+       	exp1.message as comment_of_message,
+       	exp1.`from`.id as comment_sender_id,
+        exp1.`from`.name as comment_sender_name
+from mtsbi.feed_nsso_vw0
+lateral view outer explode(comments_data) dual as exp1;

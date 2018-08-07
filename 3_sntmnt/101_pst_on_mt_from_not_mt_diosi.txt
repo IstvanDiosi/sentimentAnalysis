@@ -1,0 +1,38 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			sntmnt views	
+--			create view pst_on_mt_from_not_mt
+--			
+--		Author	Istvan Diosi 30/515-3902
+--
+--			
+--		A tlkm feedjére bárki által, de nem a tlkm által felrakott posztok 
+--		és a posztoló azonosítója. 
+--
+--		last update
+--
+--			20160221 igényként
+--			20160318 message_created_time befûzése
+--			20160501  regular exp. alkapmalzása a message-nél
+--				  regexp_replace(f.message,'\n',' ') 
+--		                  regexp_replace(substring(message,1,50),'\n',' ')
+--			
+--
+--		
+--
+-- --------------------------------------------------------------------
+create or replace view sntmnt.pst_on_mt_from_not_mt as
+select distinct
+      from_id 
+      ,message_created_time
+      ,message_id
+      ,regexp_replace(message,'\n',' ')  message
+from mtsbi.feed_all
+where 
+        fbi_object_reference='189246802995/feed'
+   and  from_id!='189246802995'
+   and  message!='NULL' 
+   and  length(trim(regexp_replace(message,'\n',' ')))!=0
+   and  substr(message_created_time,1,10)>'2015-01-01';
+
+

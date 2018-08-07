@@ -1,0 +1,26 @@
+#
+#       name     :analyzed_upload
+#       auth     : Diosi Istvan
+#       descript : A pst és cmnt folderekbe pakoljuk le az aktuális feldolgozási ciklusban feldolgozott objektumok ID-jait
+#                  Ezek temp folderek, ezért inicializáljuk õket. A feldolgozás végén az analyzed_upload script húzza fel ezeket
+#                  a fileokat a hdfs-be. Így a lokális részen nincs lényegi adattárolás. Hasonlóan, az R elemzés resultjai
+#                  /home/res.hu.corp/facebook/sntmnt_output/tag/*, /home/res.hu.corp/facebook/sntmnt_output/kat/*
+#                  /home/res.hu.corp/facebook/sntmnt_output/smt/* is felkerül a HDFS-re és innen törlõdnek.
+#                  Hasonlóan, a /home/res.hu.corp/facebook/sntmnt_input/* temp fájlokat is itt töröljük
+#
+#       last upd.:      2016-04-12      ID-kat tartalmazó fájlok törlése
+#                       2016-04-23      resultok törlése
+#
+#
+#
+# --- Az analizált tételek azonosítókat tartalmazó TMP-k törlése -------
+rm /home/res.hu.corp/facebook/analyzed/pst/*
+rm /home/res.hu.corp/facebook/analyzed/cmnt/*
+
+# --- Az resultokat tartalmazó TMP-k törlése -----------
+rm /home/res.hu.corp/facebook/sntmnt_output/tag/*
+rm /home/res.hu.corp/facebook/sntmnt_output/ktg/*
+rm /home/res.hu.corp/facebook/sntmnt_output/smt/*
+
+# --- A Hive selectek TMP-inek törlése -----------------
+rm /home/res.hu.corp/facebook/sntmnt_input/*

@@ -1,0 +1,8 @@
+R-bõl való indítás
+-------------------------------------------------------------
+
+======== inicializálja a temp foldert az éppen elemzett kódok kiírása elõtt =============
+system("/home/res.hu.corp/facebook/scripts/app_cntrl/tmp_cleaner")
+
+======== feltolja a temp folder tartalmát a perzisztens hdfs mappákba =============
+system("/home/res.hu.corp/facebook/scripts/app_cntrl/analyzed_upload")

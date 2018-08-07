@@ -1,0 +1,44 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			sntmnt views		
+--			create view cmnt_on_notmtpst_from_all
+--
+--			
+--		Author	Istvan Diosi 30/515-3902
+--
+--		A tlkm feedjére felrakott posztoknak 
+--		BÁRKI általi kommentje, aki nem a telekom
+--
+--		last update
+--			20151225 created			d.i.
+--			20160126 telekom			d.i.
+--			20160223 új igény			d.i.
+--			20160318 cmnt_created_time befûzése	d.i
+--			20160501 reg exp befûzése		d.i.
+--				  regexp_replace(cmnt_message,'\n',' ') 
+--				
+--
+--			
+--
+--		
+--
+-- --------------------------------------------------------------------
+create or replace view sntmnt.cmnt_on_notmtpst_from_all as
+select 
+  distinct
+       message_id
+      ,regexp_replace(message,'\n',' ') message 
+      ,from_id message_sender_id
+      ,regexp_replace(cmnt_message,'\n',' ') cmnt_message
+      ,cmnt_id
+      ,cmnt_sender_id
+      ,cmnt_created_time
+from mtsbi.feed_all
+where
+     fbi_object_reference!='189246802995/feed'   
+and  cmnt_sender_id !='189246802995'            
+and  cmnt_message !='NULL'
+and  length(trim(regexp_replace(cmnt_message,'\n',' ')))!=0
+and  substr(cmnt_created_time,1,10)>'2015-01-01';                  
+
+

@@ -1,0 +1,23 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			create mtsbi.fb_comment_last_dwnld
+--
+--		last update
+--			20151214 created	d.i.
+--
+--		
+--
+-- --------------------------------------------------------------------
+
+-- create section -----------------------------------------------------
+CREATE OR REPLACE VIEW mtsbi.fb_comment_last_dwnld  AS
+select f.* 
+from 
+     mtsbi.fb_comment f 
+     right join (select id,max(fbi_download_time) last_dwnld from mtsbi.fb_comment group by id) m
+ on        
+      m.last_dwnld = f.fbi_download_time
+where
+     m.id          = f.id; 
+
+

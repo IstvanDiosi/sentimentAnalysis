@@ -1,0 +1,31 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			feed basic and lateral views
+--			
+--			create comment_all_lat
+--
+--		last update
+--			20151216 created	d.i.
+--
+--		
+--
+-- --------------------------------------------------------------------
+
+-- create section -----------------------------------------------------
+CREATE OR REPLACE VIEW mtsbi.comment_all_lat  AS
+select 
+   	fbi_download_time,                 
+    	fbi_level,                            
+    	fbi_object_reference,                   
+	fbi_root,                 
+	fbi_parent_type,                   
+	fbi_parent_id,
+	`from`.id comment_sender_id,
+	`from`.name comment_sender_name,
+	can_remove,
+	created_time,
+	message,
+	id,
+	like_count
+from fb_comment;
+     

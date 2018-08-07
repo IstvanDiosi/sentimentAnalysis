@@ -1,0 +1,335 @@
+----------------------------------------------------------------------
+FEED_VW
+----------------------------------------------------------------------
+
+create or replace view feed_vw as
+select 
+	fbi_download_time,                 
+       	fbi_level,                            
+	fbi_object_reference,                   
+	fbi_root,                 
+	fbi_parent_type,         
+	fbi_parent_id,
+       	created_time as feed_message_tsmtp,
+       	message as feed_message_itself,
+       	comment_like_count,
+       	comment_id,
+       	comment_created_time,
+       	comment_of_message,
+       	comment_sender.id as comment_sender_id,
+       	comment_sender.name as comment_sender_name
+from dio_level2_feed
+----------------------------------------------------------------------
+
+
+create or replace view dio_level2_feed as
+select 
+       	fbi_download_time,                 
+       	fbi_level,                            
+	fbi_object_reference,                   
+	fbi_root,                 
+	fbi_parent_type,                   
+	fbi_parent_id,
+       	created_time,
+       	message,
+       	exp1.like_count as comment_like_count,
+      	exp1.id as comment_id,
+       	exp1.created_time as comment_created_time,
+       	exp1.message as comment_of_message,
+       	exp1.`from` as comment_sender
+from dio_level1_feed
+lateral view explode(comments_data) dual as exp1
+
+----------------------------------------------------------
+create or replace view dio_level1_feed as
+select 
+       	fbi_download_time,                 
+       	fbi_level,                            
+	fbi_object_reference,                   
+	fbi_root,                 
+	fbi_parent_type,                   
+	fbi_parent_id,
+       	created_time,
+       	comments.data as comments_data,    
+        message
+from dio_level0_feed
+where comments is not null
+
+-----------------------------------------------------------
+
+create or replace view dio_level0_feed as
+select 
+       	fbi_download_time,                 
+       	fbi_level,                            
+	fbi_object_reference,                   
+	fbi_root,                 
+	fbi_parent_type,                   
+	fbi_parent_id,
+        exp.comments as comments,				
+        exp.created_time as created_time,
+        exp.message as message,
+        exp.id as id
+from fb_feed
+     LATERAL VIEW explode(data) dual as exp		
+where fbi_parent_type = 'user';
+
+
+
+********************* új többszörözött lateral view-val *********************************
+
+
+
+
+
+create or replace view feed_vw0 as
+select 
+       	fbi_download_time,                 
+       	fbi_level,                            
+	fbi_object_reference,                   
+	fbi_root,                 
+	fbi_parent_type,                   
+	fbi_parent_id,
+        exp.comments.data as comments_data,				
+        exp.created_time as created_time,
+        exp.message as message,
+        exp.id as id
+from fb_feed
+     LATERAL VIEW explode(data) dual as exp	
+where fbi_parent_type = 'user';
+
+create or replace view feed_vw1 as
+select 
+       	fbi_download_time,                 
+       	fbi_level,                            
+	fbi_object_reference,                   
+	fbi_root,                 
+	fbi_parent_type,                   
+	fbi_parent_id,
+       	created_time,
+       	message,
+       	exp1.like_count as comment_like_count,
+      	exp1.id as comment_id,
+       	exp1.created_time as comment_created_time,
+       	exp1.message as comment_of_message,
+       	exp1.`from`.id as comment_sender_id,
+        exp1.`from`.name as comment_sender_name
+from feed_vw0
+lateral view explode(comments_data) dual as exp1
+
+*****************************************************************************************
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+Letöltött JSON-on szerkezete
+////////////////////////////////////////////////////////////////////////////////////////////
+fbi_download_time    string                 
+fbi_level            int                     
+fbi_object_reference string                   
+fbi_root             string                  
+fbi_parent_type      string                   
+fbi_parent_id        string                  
+data                 array<
+	struct<
+		 from:struct<category:string ,id:string,name:string>
+		,comments:struct<
+				data:array<
+		  				struct<
+							 from:struct<id:string,name:string>
+							,message:string
+							,id:string
+							,like_count:int
+							,created_time:string
+						>
+					> 						-------- data array
+      				>   							-------- eof comments_struct
+		-----------------------------------------------------------------------
+		,updated_time:string
+		,created_time:string
+		,to:struct<data:array<struct<id:string,name:string>>>
+		,likes: struct<data:array<struct<id:string,name:string>>>
+		,message:string
+		,type:string
+		,id:string>
+> --- eof data_array
+==================================================================================================================
+Alapmezõk tartalma és jelentése
+==================================================================================================================
+select fbi_download_time
+       ,fbi_level
+       ,fbi_object_reference
+       ,fbi_root
+       ,fbi_parent_type
+       ,fbi_parent_id
+from fb_feed
+
+result:
+--------------------------------------------------------------------------------------------------------------------------
+  fbi_download_time fbi_level fbi_object_reference 	fbi_root 	fbi_parent_type 	fbi_parent_id
+--------------------------------------------------------------------------------------------------------------------------
+0 20141004015111 	3 	623979464350300/feed 	TelekomHU 	user 			623979464350300 
+1 20141004015111 	3 	623979464350300/feed 	TelekomHU 	user 			623979464350300 
+2 20141004015111 	3 	623979464350300/feed 	TelekomHU 	user 			623979464350300 
+3 20141004015111 	3 	623979464350300/feed 	TelekomHU 	user 			623979464350300 
+4 20141004015111 	3 	623979464350300/feed 	TelekomHU 	user 			623979464350300 
+5 20141004084633 	3 	624141327/feed 		TelekomHU 	user 			624141327 
+6 20141006000145 	3 	624344861/feed 		TelekomHU 	user 			624344861 
+7 20141004144215 	3 	624740347544378/feed 	TelekomHU 	page 			624740347544378 
+
+Azaz,
+fbi_root		akin lóg a feed
+fbi_parent_type		ez az aki/ami a postot felrakta a fbi_root ra. Ez lehet user és page	
+fbi_parent_id		Ez az aki a feed-et elhelyezte a root-on.
+
+A data mezõbõl egelõre a like és a comment érdekel most.
+================================= Lateral view-kkal való bontások ==============================================
+select fbi_parent_id, 
+       exp.comments as comments,				
+       exp.created_time as created_time,
+       exp.message as message,
+       exp.id as id
+from fb_feed
+     LATERAL VIEW explode(data) dual as exp		
+where fbi_parent_type = 'user';
+result:
+   id		   comments  created_time          message						id
+------------------------------------------------------------------------------------------------------------------------------------------
+17 623979464350300 NULL 2014-07-12T15:45:09+0000 http://www.youtube.com/watch?v=mDcB6CMFgf0  de jóó  :)) 623979464350300_667585303323049 
+
+18 623979464350300 {"data":[{"from":{"id":"100001321827519","name":"Budai Leonardo"},"message":"Világ legnagyobb formája","id":"667479603333619_667487516666161","like_count":0,"created_time":"2014-07-12T12:47:47+0000"},{"from":{"id":"100002657730586","name":"Christina Németh"},"message":"XDDDDDDDDDDDDDDDDDDD","id":"667479603333619_667512083330371","like_count":1,"created_time":"2014-07-12T13:51:34+0000"},{"from":{"id":"623979464350300","name":"Nic Olee"},"message":"nagy forma :D","id":"667479603333619_667870183294561","like_count":1,"created_time":"2014-07-13T05:50:09+0000"}]} 2014-07-12T12:24:07+0000 http://www.youtube.com/watch?v=d39w-FcJKuU\nChristina Németh :DDDDDDDD 623979464350300_667479603333619 
+ 
+//////////////////////////////////////////////////////////////////////////
+0. szintû view
+///////////////////////////////////////////////////////////////////////////
+create or replace view dio_level0_feed as
+select 
+       	fbi_download_time,                 
+       	fbi_level,                            
+	fbi_object_reference,                   
+	fbi_root,                 
+	fbi_parent_type,                   
+	fbi_parent_id,
+        exp.comments as comments,				
+        exp.created_time as created_time,
+        exp.message as message,
+        exp.id as id
+from fb_feed
+     LATERAL VIEW explode(data) dual as exp		
+where fbi_parent_type = 'user';
+/////////////////////////////////////////////////////////////////////////////
+Szépen mûködik...
+select * from dio_level0_feed
+where comments is not null
+
+result:
+ 623979464350300 {"data":[{"from":{"id":"100001321827519","name":"Budai Leonardo"},"message":"Világ legnagyobb formája","id":"667479603333619_667487516666161","like_count":0,"created_time":"2014-07-12T12:47:47+0000"},{"from":{"id":"100002657730586","name":"Christina Németh"},"message":"XDDDDDDDDDDDDDDDDDDD","id":"667479603333619_667512083330371","like_count":1,"created_time":"2014-07-12T13:51:34+0000"},{"from":{"id":"623979464350300","name":"Nic Olee"},"message":"nagy forma :D","id":"667479603333619_667870183294561","like_count":1,"created_time":"2014-07-13T05:50:09+0000"}]} 2014-07-12T12:24:07+0000 http://www.youtube.com/watch?v=d39w-FcJKuU\nChristina Németh :DDDDDDDD 623979464350300_667479603333619 
+1 623979464350300 {"data":[{"from":{"id":"100007021140499","name":"Alex  Csak"},"message":"ijajjjjjjjjjjjjjjjjjjjjjjjj inkáb nem","id":"667373173344262_667380620010184","like_count":0,"created_time":"2014-07-12T06:32:12+0000"},{"from":{"id":"100005787724825","name":"Évi Mándoki"},"message":"XD há hááá ","id":"667373173344262_667608933320686","like_count":1,"created_time":"2014-07-12T16:24:18+0000"}]} 2014-07-12T06:09:01+0000 na ilyen nõtök legyen :DDDDDDDDDD 623979464350300_667373173344262 
+2 623979464350300 {"data":[{"from":{"id":"100004523887744","name":"Sofia King"},"message":"Macko <3 ","id":"666988040049442 
+
+
+//////////////////////////////////////////////////////////////////////////
+1. szintû view
+/////////////////////////////////////////////////////////////////////////
+create or replace view dio_level1_feed as
+select 
+       	fbi_download_time,                 
+       	fbi_level,                            
+	fbi_object_reference,                   
+	fbi_root,                 
+	fbi_parent_type,                   
+	fbi_parent_id,
+       	created_time,
+       	comments.data as comments_data,    
+        message
+from dio_level0_feed
+where comments is not null
+/////////////////////////////////////////////////////////////////////////
+2. szintû view
+////////////////////////////////////////////////////////////////////////
+select 
+       	fbi_download_time,                 
+       	fbi_level,                            
+	fbi_object_reference,                   
+	fbi_root,                 
+	fbi_parent_type,                   
+	fbi_parent_id,
+       	created_time,
+       	message,
+       	exp1.message as comment_of_message
+from dio_level1_feed
+ LATERAL VIEW explode(comment_data) dual as exp1   
+
+
+???????????????????
+ez is mûködik!!!!!!!!
+??????????????????????
+select fbi_parent_id,
+       created_time,
+       message,
+       exp1.like_count as comment_like_count,
+       exp1.id as comment_id,
+       exp1.created_time as comment_created_time,
+       exp1.message as comment_of_message
+from dio_level1_feed
+lateral view explode(comment_data) dual as exp1
+/////////////////////////////////////////////////////////////
+3. szintû view
+///////////////////////////////////////////////////////////
+create or replace view dio_level2_feed as
+select 
+       	fbi_download_time,                 
+       	fbi_level,                            
+	fbi_object_reference,                   
+	fbi_root,                 
+	fbi_parent_type,                   
+	fbi_parent_id,
+       	created_time,
+       	message,
+       	exp1.like_count as comment_like_count,
+      	exp1.id as comment_id,
+       	exp1.created_time as comment_created_time,
+       	exp1.message as comment_of_message,
+       	exp1.`from` as comment_sender
+from dio_level1_feed
+lateral view explode(comments_data) dual as exp1
+
+
+/////////////////////////////////////////////////////////////
+4. szintû view, végsõ bontotság
+///////////////////////////////////////////////////////////
+create or replace view dio_level3_feed as
+select 
+	fbi_download_time,                 
+       	fbi_level,                            
+	fbi_object_reference,                   
+	fbi_root,                 
+	fbi_parent_type,         
+	fbi_parent_id,
+       	created_time as feed_message_tsmtp,
+       	message as feed_message_itself,
+       	comment_like_count,
+       	comment_id,
+       	comment_created_time,
+       	comment_of_message,
+       	comment_sender.id as comment_sender_id,
+       	comment_sender.name as comment_sender_name
+from dio_level2_feed
+
+
+
+
+
+
+array<struct
+      <from: struct<id:string,name:string>
+      ,message:string
+      ,id:string
+      ,like_count:int
+      ,created_time:string
+     >
+  >
+
+
+
+

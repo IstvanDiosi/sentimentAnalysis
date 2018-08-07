@@ -1,0 +1,28 @@
+create or replace view sntmnt.end_result_comment as
+select 
+      smt.message_sender_id
+     ,smt.message_id
+     ,smt.cmnt_sender_id
+     ,smt.cmnt_id
+     ,ktg.ktg
+     ,tag.tag
+     ,smt.sentiment 
+from  result_smt smt 
+left outer join result_ktg ktg 
+  on       smt.cmnt_id        =  ktg.cmnt_id
+       and smt.cmnt_sender_id =  ktg.cmnt_sender_id
+       and smt.cmnt_id !='NA'
+       and ktg.cmnt_id !='NA'
+       and ktg.cmnt_sender_id !='NA'
+       and smt.cmnt_sender_id !='NA'
+left outer join result_tag tag
+  on       smt.cmnt_id        =  tag.cmnt_id
+       and smt.cmnt_sender_id =  tag.cmnt_sender_id
+       and smt.cmnt_id !='NA'
+       and tag.cmnt_id !='NA'
+       and tag.cmnt_sender_id !='NA'
+       and smt.cmnt_sender_id !='NA';
+     
+
+
+

@@ -1,0 +1,16 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			feed basic and lateral views
+--			
+--			create comments_all
+--
+--		last update
+--			20151216 created	d.i.
+--
+--		
+--
+-- --------------------------------------------------------------------
+
+-- create section -----------------------------------------------------
+CREATE OR REPLACE VIEW mtsbi.comments_all  AS
+select * from mtsbi.fb_comments;

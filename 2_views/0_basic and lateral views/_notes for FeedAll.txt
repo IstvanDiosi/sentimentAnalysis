@@ -1,0 +1,118 @@
+Posztok, amik a Telekom HU feed-jére kerülnek fel, bárki legyen is a posztoló
+---------------------------------------------------------------------------------
+select message from feed_all where fbi_object_reference='189246802995/feed'
+
+
+-----------------------------------------------------------------------------------------------
+Posztok, amik a Telekom HU feed-jére kerülnek fel, és maga a Telekom HU posztolta fel
+-----------------------------------------------------------------------------------------------
+select 
+       message_id
+      ,message 
+      ,from_id
+from feed_all
+where
+     from_id='189246802995'
+and  fbi_object_reference='189246802995/feed' limit 100;
+
+
+-----------------------------------------------------------------------------------------------
+Kommentek, amelyek a Telekom HU feed-jére felkerült, Telekom HU által felrakott posztra érkeztek
+-----------------------------------------------------------------------------------------------
+select 
+  distinct
+       message_id
+      ,message 
+      ,from_id
+      ,cmnt_message
+from feed_all
+where
+     from_id='189246802995'
+and  fbi_object_reference='189246802995/feed'
+and  cmnt_message !='NULL';
+
+-----------------------------------------------------------------------------------------------
+Like-ok, amelyek a Telekom HU feed-jére felkerült, Telekom HU által felrakott posztra érkeztek
+bárki is volt a lájkoló
+-----------------------------------------------------------------------------------------------
+select 
+       distinct
+       message_id
+      ,message 
+      ,liker_id
+from feed_all
+where
+     from_id='189246802995'
+and  fbi_object_reference='189246802995/feed'
+and  liker_id !='NULL';
+
+
+---------------------------------------------------------------------------------------------------------------
+Like-ok száma kommentenként a Telekom HU által felrakott, Telekom Hu feedjére felrakott posztra érkeztek
+bárki is volt a lájkoló
+---------------------------------------------------------------------------------------------------------------
+select message_id
+       ,message
+       ,count(*) like_osszesen
+ from (
+select 
+       distinct
+       message_id
+      ,message 
+      ,liker_id
+from feed_all
+where
+    from_id='189246802995'
+and fbi_object_reference='189246802995/feed'
+and liker_id !='NULL')
+group by message_id, message
+
+====================== SSO-s user által felrakott poszt a Telekom HU-ra ========================================
+select 
+       distinct
+       from_id
+      ,message_id
+      ,message 
+      ,from_id
+from feed_all f
+  where from_id in 
+        (
+         select * from tlkm_sso
+        )
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+Aki a posztot elhelyezte a Telekom HU-n annak az azonosítója a from_id, illetve a from_name
+Ha tehát a Telekom Hu által a saját feedjére felrakott posztokra és csakis azokra vagyok kivancsi, akkor
+
+select message from feed_all 
+where 
+	fbi_object_reference="189246802995/feed"
+    and from_id="189246802995"
+//////////////////////////////////////////////////////////////////////////////
+Egy posztra lájkok helyezhetõk el. A posztot lájkoló azonosítója a 
+liker_id
+
+//////////////////////////////////////////////////////////////////////////////
+Egy posztot commentelhetnek.
+cmnt_id 	= comment egyedi azonosító
+cmnt_sender_id	= aki a kommentet küldte
+cmnt_like_count	= a komment like-ok szummája
+cmnt_message	= a komment maga
+
+/////////////////////////////////////////////////////////////////////
+Egy-egy feed rekord a maga message-vel nagyon soszor ismétlõdhet, minden egyes like, comment egy-egy új bejegyzés a táblában

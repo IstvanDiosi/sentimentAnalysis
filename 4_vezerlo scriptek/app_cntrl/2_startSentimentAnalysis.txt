@@ -1,0 +1,22 @@
+# ------------------------------------------------------------------------------------------------
+#
+#       name     : startSentimentAnalysis
+#       auth     : Diosi Istvan
+#       descript : R elemzõ scriptek indítója
+#
+#
+#
+#       last upd.:      2016-04-23 Befûzés
+#                       2016-04-22 16:50  R_160422_t1.R
+#                       2016-04-28 13:16  R_160428_t2.R
+#                       2016-05-03 07:14  R_160502_t2.R
+#
+#
+
+
+# Rscript ../rcodes/R_160502_t2.R cmnt_on_allpst_from_sso.txt
+# Rscript ../rcodes/R_160502_t2.R cmnt_on_mtpst_from_all.txt
+Rscript ../rcodes/R_160502_t2.R cmnt_on_notmtpst_from_all.txt
+# Rscript ../rcodes/R_160502_t2.R pst_from_sso.txt
+# Rscript ../rcodes/R_160502_t2.R pst_on_mt_from_not_mt.txt
+# Rscript ../rcodes/R_160502_t2.R pst_on_sso_from_sso.txt

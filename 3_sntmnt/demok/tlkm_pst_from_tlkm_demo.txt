@@ -1,0 +1,349 @@
+------------------------------------------------------------------
+----	tlkm_pst_from_tlkm (ha ldwnl)
+-----------------------------------------------------------------
+ select substr(message,1,150) from tlkm_pst_from_tlkm 
+-----------------------------------------------------------------
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+|                                                                           _c0                                                                           |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+| Tudjátok már, hogyan búcsúztatjátok a 2015-ös évet? A szórakozóhelyeken a jó hangulat garantált, de egy szuper kis házibuli is emlékezetes lehet. Fõle  |
+| Unod már a sablonos fogadalmakat? Akkor jó helyen jársz! A legnagyobb klasszikusokból és az újhullámos ígéretekbõl most te is összegyúrhatsz magadnak   |
+| Összeállt a szilveszteri Spotify playlistünk: viszlát 2015, üdvözlünk 2016!                                                                             |
+| Boldog új évet kívánunk! :)                                                                                                                             |
+| http://bit.ly/Szilveszter_2015                                                                                                                          |
+| 2015-ben nagyon sok élménnyel gazdagodtunk, köszönjük, hogy velünk voltatok! Reméljük, hogy a 2016-os év is ilyen eseménydús lesz! :) #egyuttmegjobb    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+
+------------------------------------------------------------------
+----	tlkm_pst_from_tlkm (ha nem a ldwnl)
+-----------------------------------------------------------------
+ select substr(message,1,150) from tlkm_pst_from_tlkm 
+-----------------------------------------------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+|                                                                           _c0                                                                           |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+| A Star Wars elõzménytrilógia elsõ részében, a Baljós Árnyakban Padmé Amidala királynõ szerepében egy olyan színésznõt láthatunk, aki a forgatás idején  |
+| Az ünnepi sütikkel most nemcsak szeretteidet ajándékozhatod meg, hanem segíthetsz is! Használd Instagramon a #sütitadok hashtaget és támogasd az Autis  |
+| Bici néninek rád is szüksége van a rekorddöntéshez! Regisztráld magad a www.4Gsakk.hu-n, ahol nemsokára indul a parti! :) #4Gsakk                       |
+| A Szigetet is hamar meghódították a FestivalBuddy-k: partyzás, táv-vízipisztolyozás, õrültködés, csajozás és pasizás is volt bõven. Mindenkinek köszön  |
+| Összeállt a szilveszteri Spotify playlistünk: viszlát 2015, üdvözlünk 2016!                                                                             |
+| Boldog új évet kívánunk! :)                                                                                                                             |
+| http://bit.ly/Szilveszter_2015                                                                                                                          |
+| Mindenkit az érzelmei irányítanak – a Pixar legújabb animációs filmjében megismerheted Majrét, Undort, Haragot, Bánatot és Derût, akik a 11 éves Riley  |
+| A karácsonyfa feldíszítésekor elõfordul, hogy nem várt problémákba ütközünk... Dombi után rajtatok a sor, mondjátok el, hogy nálatok mi az, #aminelkul  |
+| A Samsung Galaxy széria kedvelõi elégedetten csettinthetnek, érdekes újdonságok érkeznek mostanában a gyártótól! Pár napja a nagytestvér A5-rõl olvash  |
+| Változtasd okostelefonod megfigyelõ kamerává! A #Mobiltudós blog mai cikkében iOS és Android készülékekhez is találhatsz tippeket, akár „kinõtt” eszkö  |
+| A #Mobiltudós blog mai cikkében a Huawei legújabb zászlóshajójának tesztjét olvashatjátok! A P8 helye vitathatatlanul ott van a nagyok között, kattint  |
+| Egy kutatás szerint a legtöbb ember elõször a telefonját érinti meg reggel. Ti mit néztek meg elõször ébredés után?                                     |
+| A #Mobiltudós blog mai cikkében a Sony ILCE-5000LB fényképezõgép tesztjét olvashatjátok. Ha továbblépnétek az okostelefonos fotózásnál, ez remek kiind  |
+| Március 27-én az egész világ a színházakat ünnepli. Neked még nincs jegyed egy darabra sem? Ha Mobiltárca ügyfél vagy, éjfél helyett már este 9-tõl vá  |
+| Szeretnétek kinézni ti is a Sziget Festival Official -re, és együtt pörögni a Szitizenekkel? Jelentkezzetek be a három FestivalBuddy egyikébe a www.fe  |
+| A forma ismerõs, a teljesítmény meggyõzõ - a hangsúly pedig a funkcionalitáson. Tudj meg mindent a Samsung Galaxy S5 Neo készülékrõl a #Mobiltudós blo  |
+| A sakkban csak egy irány van: elõre! Csatlakozz a rekordhoz a www.4Gsakk.hu oldalon és segíts Bici néninek, hogy elfoglalhassa a szimultán sakkozás tr  |
+| Tele a fotóalbum õrült családi képekkel? Osszátok meg õket Instagramon #telekomtravel hashtaggel, most londoni utat vagy szuper hazai wellness hétvégé  |
+| 64 nemzetközi érem, 132 országos érem, 92 aranyérem - nem semmi teljesítmény, ha valaki csupán harminc éves! Ma ünnepli születésnapját a magyar sport   |
+| A fõvárost sokan sokféleképpen megörökítették már. Most az olyan képeké a fõszerep, melyek az éjszakai Budapestet, a fényeit, sokarcúságát vagy épp a   |
+| Lassan el kell köszönnünk a nyártól, és vele együtt a fesztiválszezontól is! :(                                                                         |
+| Mi egy szép emlékkel búcsúzunk: nézzétek meg, ahogy a FestivalBuddy-k                                                                                   |
+| Még nincs Telekom fiókod? Itt az alkalom: regisztrálj most és nyerd meg a 100 db Sony Xperia E3 telefon egyikét! Csak pár kattintás! :)                 |
+| http://bit.ly/                                                                                                                                          |
+| Téged milyen zene pörget fel? Írjátok meg kommentben kedvenc motiváló dalaitokat, és Dj Dominique segítségével egy Spotify playlistet állítunk össze,   |
+| Az Xtreme az eddigi legnagyobb JBL hangszóró, ami a #Mobiltudós bloggerek kezei közé került...na de a legjobb is? Részletek a mai cikkben, kattintsato  |
+| „8 éves koromban a bátyámmal mindketten bringát kértünk az Angyaltól. Amikor este megszólalt a csengõ, és bementünk a karácsonyi fényben úszó nappalib  |
+| Itt az utolsó esély! Te is szeretnél részese lenni a nyár legmenõbb fesztiválkalandjának? Akkor jelentkezz BuddyGuide-nak! Ma még megteheted! Aki lema  |
+| Lelkesen szurkolsz Cseh László, az MKB Veszprém KC, és a Ferencvárosi Torna Club sikereiért? Mutasd meg nekünk Instagramon az #egyuttmegjobb hashtagge  |
+| NULL                                                                                                                                                    |
+| Idén ismét Telekom Vivicittá! A futófesztivál áprilisban több helyszínen, színes programokkal várja a futni vágyókat és a szurkolókat. Kövessétek olda  |
+| Kedves e-mail Felhasználóink! Az éjszakai erõfeszítésnek több eredménye lett: látjuk, hogy mi a hiba pontos oka (ezt azért már korábban is tudtuk) és   |
+| Együtt még jobb – ezt ugyanígy átélik a veszprémi kézisek, a fesztiválon Ákosra tombolók, vagy éppen a Vivicittán csoportosan futók is. A Telekom 4G-h  |
+| A Fressnapf kutyarandi appot minden gazdi értékelni fogja. Találd meg kutyusodnak az ideális játszótársat, és már indulhat is a móka! :) Részletek a #  |
+| Három medve, egymásnak vállvetve… ma délután indul a Cartoon Network legújabb cukisága, a Medvetesók sorozat. Ismerd meg Pandát, Jegesmedvét és Grizzt  |
+| Már csak pár nap és itt a várva várt ünnep! :) Hangolódjunk együtt a karácsonyra a Spotify szuper playlistjével! Ajándékcsomagolás vagy fadíszítés mel  |
+| Ezek a fiúk és lányok már jelentkeztek BuddyGuide-nak, hogy bebizonyítsák, õk a legnagyobb fesztiválarcok, akiknek idén is a VOLT Fesztivál Officialon  |
+| A JBL Flip3 folytatja, amit az elõdök elkezdtek, sõt, rátesz egy lapáttal: bombasztikus hangzás, remek üzemidõ...részletekért olvasd el a #Mobiltudós   |
+| A cyber-bullying – vagyis az interneten történõ zaklatás – egy olyan jelenség, ami szinte egyidõs magával a világhálóval. Nehéz ellene védekezni, mind  |
+| Apple rajongók, reméljük az estéteket már szabaddá tettétek! ;) Helyi idõ szerint 19:00-kor kezdõdik a legújabb csúcskategóriás iPhone-t bemutató esem  |
+| Az Alcatel Idol 3 üdítõ újdonságokat hozott a középkategóriába - egyes funkcióit még a nagyok is megirigyelhetnék. Tudjatok meg róla mindent a #Mobilt  |
+| NULL                                                                                                                                                    |
+| Múlt héten bemutattuk nektek a Budapest útikönyvek margójára pályázat gyõztes fotóit, ma pedig megtudhatjátok, hogy milyen helyszínek kerültek fel a n  |
+| Bici néni mindenkiért, mindenki Bici néniért! Játssz te is a Tábla Királynõjével a www.4Gsakk.hu oldalon és döntsétek meg közösen a szimultánozás reko  |
+| A tegnapi vihar után lassan minden a helyére kerül Zamárdiban, ahonnan természetesen a FestivalBuddy-k sem hiányozhatnak! Kövesd velük a Balaton Sound  |
+| Unod már a sablonos fogadalmakat? Akkor jó helyen jársz! A legnagyobb klasszikusokból és az újhullámos ígéretekbõl most te is összegyúrhatsz magadnak   |
+| Készüljünk együtt! http://bit.ly/Vivicitta_Futonaplo                                                                                                    |
+| Továbbra is a ti képeiteké a fõszerep! A Budapest útikönyvek margójára pályázatunk során kiemelt figyelmet kaptak a monokróm technikával készült fotók  |
+| A VOLT Fesztivál Official -nek ugyan vége, de szerencsére nem kell sokáig kibírnunk fesztivál nélkül. Ideje átcuccolni Zamárdiba, a Balaton Sound Offi  |
+| Szerezd meg az 500 darab páros jegy egyikét Ákos Telekom Premier Estjére! Csupán aktivált MobilTárca és legalább egy letöltött kártya kell hozzá! Talá  |
+| NULL                                                                                                                                                    |
+| Erre vártál egész évben? Mi is! :) Találkozunk az év legnagyobb közösségi eseményén, a Sziget Festival Official -ön, ahová mi visszük a 4G-t, az ingye  |
+| Nathalie és Kristof egy plüss állattal barangolja be a világot. Kabalájukat mindenhol lefotózzák, ahol járnak: most épp a Hõsök terén találkoztunk vel  |
+| Kapjátok lencsevégre és osszátok meg Instagramon kedvenc budapesti helyeiteket, hogy bekerülhessenek a Budapest Beyond Sightseeing csapatának következ  |
+| Tudtátok, hogy a GoPro kamerák szenzorai a Sony-nál készülnek? A japán gyártónak már ideje volt ráerõsítenie saját gyártmányú sportkameráira. A #Mobil  |
+| Ti jártatok már igazi lemezboltban? Isu, az Aktrecords alapítója még gyerekként szeretett bele a bakelitekbe, ma pedig már a leginnovatívabb zenészekn  |
+| Nálunk ma este 20 órától a Quimby indítja az évet egy kis Varázszenével. Nézzétek velünk a koncertet a Telekom 4G hálózatán!                            |
+| A Ferencvárosi Torna Club - a hivatalos oldal ifi csapatánál jártunk, hogy megkérdezzük, hogy szoktak ráhangolódni a felkészülési meccsekre. Ti milyen  |
+| Töfi, az országjáró kisbuszunk ma megérkezett elsõ állomására, Miskolcra! Keressétek a Miskolc Pláza elõtt és játsszatok! :)                            |
+| Megérkezett Budapest legújabb fesztiválja! Egy hét múlva sztártudósok sokaságával indul a Brain Bar Budapest. Robotika, okos városok, újító oktatás...  |
+| A Star Wars: Klónok támadása mozitörténeti mérföldkõ volt: ez az egyik elsõ olyan film, amely már teljes egészében digitális eszközökkel forgott. A tö  |
+| Kívülrõl komfortos fülpárnák és prémium alkotóelemek, belülrõl pedig tiszta, minõségi hangzás – akár zajszûréssel is! Ezek jellemzik a Samsung Level f  |
+| Buzdítsuk együtt az MKB Veszprém KC csapatát! Adj erõt nekik te is: töltsd fel szurkolói fotódat Instagramra a #telekomveszprem hashtaggel május 26-ig  |
+| Nyaraltál már Olaszországban? Mihez fûzõdnek a legjobb élményeid, és hová látogatnál még el szívesen?                                                   |
+| Külföldön is veled vagyunk! Vidd magaddal okost                                                                                                         |
+| Ti sétáltatok már zenélõ épületben? Az Electronic Beats fesztiválon ezt is megtehetitek, hiszen az innovatív zenei megmozdulásra a Hello Wood a Poliph  |
+| 10 colos képátlójú, ütõs táblagépben gondolkodtok? Vessetek egy pillantást a Samsung Tablet S-re! A #Mobiltudós blog készüléktesztjét erre találjátok:  |
+| Bármivel is készültetek mára, a párotok biztosan annak örül majd a  leginkább, ha elmondjátok, mennyire szeretitek. Ha jól jönne egy kis  segítség, ak  |
+| Meglepetés a gyerekeknek a nyári szünetben: egész augusztusban kódolatlanul nézhetik a Nick Jr. mesecsatornát! :) Digitális TV elõfizetõink a 7-es csa  |
+| Jó hír az iPhone rajongóknak! Nálunk október 9-tõl megvásárolhatóak az iPhone 6s és iPhone 6s Plus, a valaha gyártott legkorszerûbb iPhone készülékek.  |
+| Lelkes sportdrukker vagy? Mutasd meg nekünk Instagramon #egyuttmegjobb hashtaggel, hogy szurkolsz az MKB Veszprém KC, a Ferencvárosi Torna Club vagy C  |
+| Instázók figyelem! Egy különleges kezdeményezést mutatunk be hamarosan, aminek ti is részesei lehettek, csak a mobilotokra és a kreativitásotokra lesz  |
+| Nagy hangzás a kis dobozból. Talán ez lehet a bluetooth hangszórók esszenciája. A #Mobiltudós blog mai cikkében a prémium hangzásvilágú Samsung Level   |
+| Kamerát ragadtunk és elindultunk Budapest utcáin, hogy megkérdezzük az embereket a zenéhez fûzõdõ viszonyukról. Nézzétek meg a videót, és írjátok meg   |
+| A FestivalBuddy-k robognak tovább egyenesen a Sziget Festival Official felé! Részt akarsz venni az õrületben? Jelentkezz BuddyGuide-nak Instagram vide  |
+| Fent tudsz maradni egész éjszaka? Tudsz mereven nézni egy pontba órákig? Tudod akár a telefonoddal is irányítani a TV-t? Akkor megvan az összes szuper  |
+| Befejezõdött az örök karácsonyi emlékek gyûjtése, nektek köszönhetõen a padlás tele van csodás, felejthetetlen karácsonyi történetekkel. Kukkantsatok   |
+| És így buliztatok ti Sopronban a Festival Buddy-kkal! Na, ki találja meg magát a képeken? Tagelni ér! ;)                                                |
+| #festivalbuddy #volt2015 #egyuttmegjobb                                                                                                                 |
+| Összekötünk a szeretteiddel, összekötjük Európát! Üzend meg kommentben jókívánságaid a Nagy-Britanniában élõ barátaidnak, vagy mondd el az itthoniakna  |
+| Twitteres livestreaming iOS-en. A Meerkat app csak ennyit kínál, viszont ezt remekül. Részletek a #Mobiltudós blogon, kattintsatok!                     |
+|                                                                                                                                                         |
+| +Ráadás képek a M                                                                                                                                       |
+| Még több film karácsonykor! Telekom TV elõfizetõként nézzétek velünk a Filmvilág és Nagyvilág minicsomagok csatornáit kódolatlanul december 24-26 közö  |
+| NULL                                                                                                                                                    |
+| Nyelvtanulás. Tipikusan olyan dolog, melyet elkezdeni vagy folytatni nehéz lehet, de soha nem késõ! A #Mobiltudós blog cikksorozatában a héten olyan a  |
+| A #Mobiltudós blog mai cikkébõl megismerheted a naptár appot, amit ezentúl használni fogsz. ;) #Sunrise                                                 |
+| Ott lesztek Zamárdiban a Balaton Sound Official-on? Dobjátok be a kommentek közé, hogy mely számokat várjátok a legjobban! A kedvenceitekbõl ezúttal i  |
+| A Huawei új készülékét bár a középkategóriába szánták, de feljebb is megállja a helyét. A #Mobiltudós blog mai cikkében a G8 tesztjét olvashatjátok, k  |
+| „Kisgyerekként megkaptam karácsonyra az elsõ igazi karórámat. Piros volt és gyönyörû! Le sem vettem egész nap, még fürdéshez sem! De nem volt vízálló.  |
+| "Anyám azt mondta: ha beállsz katonának, tábornok lesz belõled, ha szerzetesnek mész, a végén te leszel a pápa. Én festõnek mentem, és Pablo Picasso l  |
+| Ismerd meg Bici nénit közelebbrõl, és vegyél részt a rekordkísérletben a http://4gsakk.hu/ oldalon!                                                     |
+| Meglepetésekkel teli vasárnap délutánban volt része annak, aki kilátogatott az Erzsébet térre! Te is kíváncsi vagy, mit rejtett a Budapest közepén fel  |
+| "A feleségemtõl kaptam az elsõ közös karácsonyunkra egy játék jegesmackót. Nem bolti tömegcikk volt: õ maga varrta! A különlegessége, hogy belül igazi  |
+| A Microsoft Lumia 950 - dokkolóval együtt - elõrendelhetõ a kínálatunkban! A készülék már Windows 10-zel érkezik, eljött hát az ideje, hogy közelebbrõ  |
+| A nagysikerû könyv után végre itt a sorozat! A Wayward Pines elsõ epizódja világpremier elõtt holnaptól május 7-ig elérhetõ kizárólag a Telekom TV Moz  |
+| Kerüljön be a te kedvenc helyed is Budapest elsõ, közösség által összeállított városnézõ sétaútvonalába! Ma a LEFOTÓZLAK! oldal fotósa, Soós Bertalan   |
+| Jelentkezz te is BuddyGuide-nak Insta videóddal és fejleszd tökélyre a fesztiválozást! Minden, amit tudnod kell: http://bit.ly/FestivalbuddyKisokos     |
+| #                                                                                                                                                       |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+|                                                                           _c0                                                                           |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+| Nagyon szeretnél segíteni Bici néninek a rekorddöntésben, de a sakktudásod némi csiszolásra szorul? Ezen aztán ne múljon! A gyorstalpaló sakksuliért k  |
+| Ma világpremierrel folytatódik a The Walking Dead a FOX mûsorán! Az új évadban Rick és csapata megtanulja, hogy ebben a világban már nem elég egyszerû  |
+| Igazi filmrajongó vagy? Akkor ennek a hírnek örülni fogsz: digitális TV elõfizetõink novemberben kódolatlanul érhetik el a FilmBox Premium csatornát a  |
+| A kérdés már nem az, hogy lehet-e okostelefonnal fizetni, hanem hogy melyik megoldást választjuk. Részletek a #Mobiltudós blog beszámolójában!          |
+| „Nekem sokat segít a futás. Sokkal jobb fizikai állapotba kerültem tõle, amit még a szülésnél is éreztem. Minden évben igyekszem egy picit növelni a t  |
+| Hogyan lehet videókat és zenéket felmásolni iPhone-ra az iTunes nélkül? A WALTR még tömörítetlen fájlokkal is elbír, részletekért olvassátok el a #Mob  |
+| A #Mobiltudós bloggerek is megmérették magukat karmesterként. Fõszerepben a Mobilpálca és a BFZ - Budapesti Fesztiválzenekar, az installációt az Akvár  |
+| Ezen a hétvégén ünnepeljük elsõ közös évünket az Akvárium Klubbal! A fergeteges születésnap alkalmából most összeszedtük az elmúlt év legemlékezeteseb  |
+| Egyszer volt, hol nem volt, volt egyszer egy...Szerintetek hogyan folytatódik a mese? Ezen a hétvégén megtudhatjátok, hiszen gyereknap alkalmából a Te  |
+| Felejtsétek el a szkennereket, a megfelelõ okostelefonos appal már könnyen helyettesíthetõ a funkciójuk. Ismerjétek meg a Camscanner alkalmazást a #Mo  |
+| Kíváncsiak vagytok, hogy lehet egy filmben 170 évvel ezelõtti városképet varázsolni? Kattintsatok cikkünkre, és ismerjétek meg a Rudolf Péter által re  |
+| Amikor a retró életérzés találkozik az Androiddal, és mindez egy kagylótelefonban ölt testet... LG Wine Smart készülékteszt a #Mobiltudós blog mai cik  |
+| Még nem szorították sarokba a gyáróriást, de mostanra lépnie kellett. Ismerjétek meg a Samsung új készüléksorozatának egyik elsõ tagját, az immár fémb  |
+| Kíváncsi vagy, mik azok a dalok, amik az elmúlt hetekben bemutatott fotósainkat inspirálják a várost járva? Hallgass bele Soós Berci, Süveg Áron, Nemc  |
+| Szeretnél egy igazi dizájnerselfie-t? Posztold arcképedet az Instagramra #selfiefarsang hashtaggel! Ma még válogatnak mûvészeink az elkészült fotók kö  |
+| A FestivalBuddy-k hatalmasat partiztak veletek a Balaton Sound Official-on, mi pedig elhoztuk nektek a legjobb pillanatokat! Köszönjük, hogy újra velü  |
+| A #Mobiltudós blog mai cikkében a Vigyél Haza mobilappról olvashattok. Kutyabarátok figyelmébe különösen ajánljuk, kattintsatok a részletekért! :)      |
+| Büszkén jelenthetjük, hogy ismét egy kiemelkedõ csapat mögé álltunk! Neked is zöld-fehérben dobog a szíved? Mutasd meg, hogy szurkolsz a Ferencvárosi   |
+| Hová tûnt Taylor Swift? Történhettek változások a Spotify fedélzetén, de lendületük továbbra is töretlen, a jobbnál jobb zenék csak jönnek és jönnek.   |
+| Már csak 10 nap! Ennyi ideig látogatható még a Kép és Képtelenség kiállítás a Robert Capa központban. Olvassátok el a #Mobiltudós blog kedvcsináló élm  |
+| A Huawei P8 után nem maradhat el a "kistestvér" P8 Lite tesztje sem. Hogy miben különböznek egymástól, kiderül a #Mobiltudós blog mai cikkébõl, kattin  |
+| Valentin nap alkalmából olyan párok elõtt tisztelgünk, akik ma is inspirációt jelentenek. Hogy ma kicsit õk is újra együtt legyenek, szerelmes utcatáb  |
+| Timi tíz éves, Noémi májusban lesz nyolc. Ketten együtt 14 futóversenyen rajtoltak már el, és érmeik mellett minden rajtszámukat is kincsként õrizgeti  |
+| Melyek azok a zenék, amiket semmiképpen nem hagynátok ki az idei Sziget Festival Official koncertjein? Kommentek közé velük! Minden idõk (de minimum 2  |
+| Kedvet kaptatok a nagy közös sütizés után felderíteni a város legjobb cukrászdáit? Mi is! :) Mutatjuk is a kedvenceinket! #megosztasereje #icg_bp       |
+| Van egy falu az országban, ahol a lakosság 80%-a nõ. Lendvajakabfán nincs könnyû dolga a férfiaknak húsvéthétfõn, úgyhogy arra gondoltunk, segítünk ne  |
+| Ne feledjétek, hogy továbbra is várjuk #filmterkep hashtaggel a kedvenc filmes helyeitek fotóit az Instagramon! Ezeket a képeket már tõletek kaptuk. F  |
+| Már csak pár nap, és elrajtol az Electronic Beats Festival, Budapest legelõremutatóbb zenei eseménye! Számos program vár majd titeket: koncertek, DJ-s  |
+| Ismerjétek meg Tóth Barnabást, vagyis Barnie-t, aki profi városfotóival inspirál titeket az Insta City Guide - A Budapest útikönyvek margójára fotópál  |
+| Jedik figyelem! Már nem kell olyan nagyon sokat aludni, és megérkezik a Star Wars sztori várva várt folytatása a mozikba! Idézzétek fel az elõzményeke  |
+| Zé is elmondta, hogy mi az, #aminelkulnincskaracsony (na meg diós bejgli), most rajtatok a sor! ;)                                                      |
+| Hamarosan az Egri csillagok is felkerül a Magyarország Filmtérképére! Ti milyen filmes helyszíneket tennétek még fel? Mutassátok meg Instagramon a #fi  |
+| Ha ma csak egy Balaton Sound Official képes összefoglalót nézel meg, akkor ez legyen az! Tagre fel! :)                                                  |
+| A #telekomveszprem játék nyertese, Barby úton van édesapjával Kölnbe, hogy a helyszínen szurkoljon az MKB Veszprém KC-nak a Bajnokok Ligája Final 4-ba  |
+| A #Mobiltudós blog mai cikkében a középkategória egyik legjobb ár-érték arányú táblagépérõl, a Huawei MediaPad T1 8 LTE tabletrõl olvashattok! Kattint  |
+| A Misfit Shine pályafutása egy közösségi finanszírozású kampánnyal kezdõdött, talán ennek is köszönhetõek egyedi tulajdonságai. Részletek a #Mobiltudó  |
+| Nézzétek meg válogatásunkat, melyet a Sziget Festival Official utolsó két napjának legjobb FestivalBuddy pillanataiból állítottunk össze! :)            |
+| #festival                                                                                                                                               |
+| Ma éjjel Midnight Music koncert a BFZ - Budapesti Fesztiválzenekarral! A mûvészek ajánlásával készítettünk nektek egy Spotify playlistet, hogy már mos  |
+| Végre lehull a lepel, örömmel mutatjuk be nektek a BuddyMe-t! Õ fog bevinni titeket a fesztiválok sûrûjébe! :) Hogyan? A cikkbõl minden kiderül! #fest  |
+| Nézzétek meg válogatásunkat, melyet a Sziget Festival Official utolsó két napjának legjobb FestivalBuddy pillanataiból állítottunk össze! :)            |
+| #festival                                                                                                                                               |
+| Robog tovább országjáró kisbuszunk: Töfivel a következõ napokban a cívis városban futhattok össze. Ne maradjatok le a magenta csodáról és a szuper ját  |
+| Ha egy kép többet mond ezer szónál, akkor mi a helyzet a videókkal? A Magisto megmutatja a videókészítés legegyszerûbb módját, ezzel az appal tényleg   |
+| A #Mobiltudós blogon ma egy különleges alkalmazásról olvashattok, ami a jelnyelv megismerésében segít: íme a Hallatlan app. Miért lehet hasznos és hog  |
+| A #Mobiltudós blogon ezentúl magyar startupokról is olvashattok! :) Az elsõ cikk a témában a Codie zseniális oktatórobotját és az alkotók csapatát mut  |
+| NULL                                                                                                                                                    |
+| "Egy koncert a zenekarommal, egy latte a kedvenc kávézómban, egy karácsonyi buli a családommal, egy motorozás az édesapámmal" - Sanyi, a Mary PopKids   |
+| Ha Susan szembejönne veletek az utcán, mit tippelnétek elsõre a foglalkozását illetõen? Az ötleteket kommentben várjuk, de akár már ma este kideríthet  |
+| Panem népe forradalomban harcol az elnyomó Snow elnök hatalma ellen - eljött Katniss Everdeen utolsó megmérettetése! A Kapcsolat Program jóvoltából mo  |
+| A #Mobiltudós blog mai cikkében a Microsoft Lumia 950 készüléktesztje - olvasását nem csak WP rajongóknak ajánljuk. ;)                                  |
+| Kattintsatok, és tudjatok meg m                                                                                                                         |
+| Így buliztak a Festival Buddy-k a VOLT Fesztivál Official -ön! Próbáld ki õket te is legközelebb a Balaton Sound Official -ön, és fesztiválozz az orsz  |
+| Oszd meg az örömöd, hogy mások is örüljenek! Te mit osztottál meg utoljára? Mi hamarosan sütiket fogunk, tarts velünk! :)                               |
+| https://www.facebook.com/eve                                                                                                                            |
+| 18 év telt el azóta, hogy a régi városi sportcsarnokban – akkor még Westelként – elindítottuk partnerségi együttmûködésünket a veszprémi kézilabdázó c  |
+| A csúcskészülék, amihez elsõ érintésre társul az "ide nekem most azonnal" érzés. Samsung Galaxy S6 edge+ készülékteszt a #Mobiltudós blogon, kattintsa  |
+| NULL                                                                                                                                                    |
+| Ismerjétek meg a Száva utcai adótorony történetét és jelentõségét a Telekom életében a #Mobiltudós bloggerek szemszögébõl!                              |
+| Emlékeztek még Hulk találkozására Lokival, az elõzõ rész "nyikhaj istenkéjével"? Emelik a tétet, eljött Ultron kora!                                    |
+|                                                                                                                                                         |
+| A Kapcsolat Program jóvoltából m                                                                                                                        |
+| „Óvodásként táborba készültem, de féltem, mi lesz velem Anya és Apa nélkül. Ezért Anya készíteni akart nekem két babát. De lassabban haladt a kelletén  |
+| Célegyenesben vagyunk, már csak 290 játszma hiányzik a nagy rekorddöntéshez! Neked pedig csupán egy sakkpartira és kis szerencsére van szükséged, hogy  |
+| A HTC nem csak csúcskészülékek mezõnyében erõs, ezt a Desire 626 bizonyítja is. Ha középkategóriás okostelefont kerestek, könnyen lehet, hogy ez lesz   |
+| Itt a jó idõ, így végre bringára pattanhatunk! Az Insta City Guide-dal ezúttal a kerékpárosok Budapestjére vagyunk kíváncsiak! Te is két keréken járod  |
+| Cseh Laci tippje versenyzéshez: “Van pár szám, ami nagyon fel tud pörgetni, amitõl kész vagyok leküzdeni bármilyen akadályt. Versenyzés elõtt a Limp B  |
+| „Spotify-on zenehallgatás, filmnézés, sörözés a haverokkal, PC-n gamelni” - Olivér is megosztotta velünk kedvenc elfoglaltságait. Ne feledjétek: együt  |
+| Továbbra is várjuk a szuper fotókat a Budapest útikönyvek margójára! Még nem töltötted fel a kedvencedet? Akkor meríts ötleteket Süveg Áron városfotós  |
+| Idén nem tudsz eljutni a VOLT Fesztivál Official -re? Van egy jó hírünk, BuddyGuide-jaink bevisznek és úgy bulizhatsz, mint még soha!                   |
+| Ismerd meg õket                                                                                                                                         |
+| NULL                                                                                                                                                    |
+| Dióhéjban a Prezi új alkalmazásáról: imádjuk. Részletek a #Mobiltudós blog mai cikkében!                                                                |
+| http://bit.ly/Nutshell-iOS                                                                                                                              |
+| NULL                                                                                                                                                    |
+| Szuper fotók készültek a nyaraláson? Most utazást is nyerhetsz velük! :) Töltsd fel õrült családi fotóidat #telekomtravel hashtaggel az Instagramra, é  |
+| Zsófi megmutatta, milyen arcot vágott, amikor majdnem kiderült a gondosan kitervelt ünnepi meglepetés... :) Rajtatok a sor, mondjátok el ti is, hogy n  |
+| Szeretnél egy jó táblagépet, de egy hasonlóan ütõs okostelefont is? Az Asus Padfone S a "kettõ az egyben" készülékek iskolapéldája, ahol mindkét igény  |
+| Alkossuk meg együtt Magyarország Filmtérképét! Fel tudod sorolni a helyszíneket az Üvegtigrisbõl? Netán Gazdagréten laksz, ahol a Szomszédokat forgatt  |
+| Lemaradtál a farsangi buliról? Itt a lehetõség pótolni! Idén farsangkor nem csak te, hanem a képeid is jelmezbe öltözhetnek. Add hozzá Instára posztol  |
+| A #Mobiltudós blog mai cikkében egy nagyon egyszerû, de annál ritkábban használt beállítási lehetõségrõl olvashattok: így rendszerezzétek kedvenc csat  |
+| A Kapcsolat Program jóvoltából most családi mozizást nyerhettek a Pán címû film premier elõtti 3D vetítésére. Regisztráljatok és lépjetek be Sohaorszá  |
+| Elkezdõdött a #BrainBarBudapest konferencia! Nem tudsz ott lenni személyesen? Kövesd az elõadásokat online, élõben az Akvárium Klub Official termeibõl  |
+| A FestivalBuddy-k ma ismét belevetik magukat a Balaton Sound Official forgatagába, kövessétek õrültségeiket minden nap 17 és 21 óra között a www.festi  |
+| Ha ma csak egy Balaton Sound Official képes összefoglalót nézel meg, akkor ez legyen az! Tagre fel! :)                                                  |
+| Összekötünk a szeretteiddel, összekötjük Európát! Üzend meg kommentben jókívánságaid a Németországban élõ barátaidnak, vagy mondd el az itthoniaknak,   |
+| Már csak egy hónap és itt a VOLT Fesztivál Official! Sopronban idén olyan világsztárok zenélnek, mint a Fatboy Slim, a Bastille, vagy éppen a Guns N'   |
+| Töltsétek le a Da Vinci Learning Zseb-Enciklopédiát és készítsetek otthon igazi madzagos telefont, világító vizet, planetáriumot, rakétát vagy repülõt  |
+| Rajongók milliói várták már, hogy Anastasia és Christian története életre keljen a mozivásznon. Regisztrálj weboldalunkon, és a 80 szerencsés között l  |
+| Hogyan lehet olyan hangokat létrehozni, amit még soha senki nem hallott? Errõl is beszélgettünk iamyankkal, a hamarosan megrendezésre kerülõ Electroni  |
+| Itt volt már az ideje egy fényeffekteket is felvonultató hangszórónak, a JBL Pulse 2 nem csak a hangzásával hódít. Kattintsatok és tudjatok meg róla m  |
+| Mutasd meg te is a karácsonyi arcod, és mondd el, hogy szerinted mi az, #aminelkulnincskaracsony                                                        |
+| Veszprémben is nagy a készülõdés a mindent eldöntõ meccshétvégére! Így szurkolunk mi, és küldjük a buzdítást az MKB Veszprém KC-nak! Ti mit üzennétek   |
+| 2015. augusztus 24-e nevezetes nap lesz: a Fear The Walking Dead világpremierjének napja. Digitális TV elõfizetõink számára pedig ez a hétfõ mást is t  |
+| A Valentin-napot lehet szeretni vagy éppen kritizálni, de kétségtelenül nehéz elmenni mellette észrevétlenül. Bárhogy is érzel, Spotify playlistünkkel  |
+| A hordható kiegészítõk világa egyre sokszínûbb: a fitnesz karperecektõl az okosórákig sok minden megtalálható ebben a kategóriában. A #Mobiltudós blog  |
+| A #Mobiltudós blogon még nem készült teszt Honor márkájú készülékrõl - egészen mostanáig! A sort a Honor 6 nyitja, tudjatok meg mindent a telefonról a  |
+| A mai napon összejött az, ami nélkületek nem sikerülhetett volna! Bici néni és ti megdöntöttétek a szimultán sakkozás világrekordját!  :)               |
+| Nehéz ezt mé                                                                                                                                            |
+| Kult-rajzfilmsorozat, nem csak gyerekeknek! Merülj el a kalandokkal, mágiával, szörnyekkel teli világban ebben a hónapban kódolatlanul! Kalandra fel!   |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+|                                                                           _c0                                                                           |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+| Együtt még jobb! Így van ez Noémi kedvenceivel is: "Zene, séta a barátokkal, szerelem, állatok." Mi az a négy dolog, amit ti legjobban szerettek?       |
+| Lassan 1 éves lesz a BKK Futár app, avagy a BKK - Budapesti Közlekedési Központ utazástervezõje. Ti szoktátok használni? #Mobiltudós tapasztalatok a b  |
+| Munkahelyi szituáció: kapsz egy e-mailt. Az infót jelzed valakinek SMS-ben. Az a valaki továbbítja Messengeren. Onnan egy Hangoutban megy tovább az il  |
+| Hogy mi mindent tud a Városban app? Az Egy nap a városban tapasztalataira is építõ étteremkeresõ mellett egy remek kedvezményprogram is elérhetõ benne  |
+| Ilyen lenne az ideális tablet? A Samsung Galaxy Tab S2 szakított az elõdök hagyományaival, a szériában újdonságként megjelent a 4:3 képarány. Részlete  |
+| Ma indul a FestivalBuddy-k élõ közvetítése a VOLT Fesztivál Official-rõl! Bármerre is jársz, a fesztiválhangulat garantált! :) Nézz be Sopronba itt: w  |
+| November 8-án jön az Aranyélet premier epizódja az HBO-n! Az elsõ részt az HBO GO-n regisztráció nélkül is megnézheted, ha pedig HBO elõfizetõként reg  |
+| Programozók és kreatív brainstormerek! Van számotokra egy ütõs hétvégi programunk: a Kitchen Budapest berkein belül Intel Workshop és Hackathon lesz.   |
+| Ha az okostelefonok a mobilkommunikáció svájci bicskái, akkor minek neveznétek a külsõ akkumulátorokat?                                                 |
+| Urban Revolt kütyübemutató a #Mobiltudós blog                                                                                                           |
+| A #Mobiltudós blog mai cikkében az LG G3S okostelefonról olvashattok! A bloggerek kezei között ezzel már minden eddigi G-szériás modell megfordult. Ti  |
+| Eljött a nagy nap! A www.4Gsakk.hu oldalon mostantól szállhattok harcba Bici nénivel a rekord megdöntéséért. A játékosok között egy Samsung Galaxy S6-  |
+| A virtuális valóság már nem újdonság, egyre jobb eszközök és tartalmak érhetõek el a VR élményhez. A #Mobiltudós blog mai cikkében az Oculussal közöse  |
+| Önvezetõ autók, épületautomatika, mobilról vezérelhetõ ajtónyitás...csak pár példa a Smartmobil konferencián elhangzottakból. Részletek a #Mobiltudós   |
+| Reméljük, hogy 2015 olyan pörgõs és változatos lesz, mint a kommentjeitek alapján összeállított playlist! Évindító válogatás következik:                |
+| http://bit.l                                                                                                                                            |
+| Tudjátok már, hogyan búcsúztatjátok a 2015-ös évet? A szórakozóhelyeken a jó hangulat garantált, de egy szuper kis házibuli is emlékezetes lehet. Fõle  |
+| BuddyGuide-nak lenni az egyik legjobb dolog, ami történhet veled a VOLT Fesztivál Official vagy a Balaton Sound Official fesztiválon! Jelentkezz te is  |
+| Így készült a BuddyMe! :) Te is szívesen a nyakadba kapnád? Ha most jelentkezel, a Balaton Sound Official -ön még megteheted! Az élõ közvetítéseit ped  |
+| Túl Sopronon mi már hangolódunk Zamárdira! Tippjeitek alapján jöjjön a Spotify playlist, ami segít átvészelni a hátralévõ pár napot a Balaton Sound Of  |
+| NULL                                                                                                                                                    |
+| Köszönjük nektek az eddigi támogatást, segítségetekkel már több mint 1,7 millió Ft-ot gyûjtöttünk össze az Autistic Art - Mosoly Otthon Alapítvány (MO  |
+| Õrült családi fotóid most londoni utat vagy egy hangulatos wellness hétvégét érhetnek! Oszd meg õket #telekomtravel hashtaggel az Instagramon és nyerj  |
+| NULL                                                                                                                                                    |
+| Töfi ma Szegedre érkezett! Keressétek a magenta kisbuszt az Árpád téren, az egyetem mellett, és játsszatok velünk!                                      |
+| A rekkenõ hõségben, amikor nem szívesen mozdul ki az ember, néha jó elütni az idõt egy kis játékkal. :) A #Mobiltudós blogon ma egy igazi klasszikusró  |
+| A 2015-ös Mobile World Congress forgatagában és Barcelona festõi városában készült képsorozataink. :)                                                   |
+|                                                                                                                                                         |
+| Kollégáink mellett az extra képeket köszönjük                                                                                                           |
+| Filmrajongók, figyelem! Tippjeitek alapján a Borgiák és az Én, a kém már biztosan szerepelnek a Filmtérképen. Tudtok még olyan külföldi produkciókról,  |
+| Cukiság a maximumon! :) Az ovis csoportra hatalmas meglepetés várt, de ennek hírét csak néhány gyerekkel osztották meg elõre. Vajon meddig tudták magu  |
+| Ahol minden nap Gyereknap: a Kapcsolat Program legújabb nyereményjátékán most megnyerhetitek a 80 db családi belépõ egyikét az Elevenpark játszóházakb  |
+| Szelfibotok. Egyesek szerint nélkülözhetetlenek, mások szerint elhozzák az apokalipszist. A #Mobiltudós blog mai cikkében ezekrõl lesz szó - szavazhat  |
+| Hogyan lehet támogatni a felnövõ generáció biztonságos és felelõs internethasználatát? Amíg a rendelkezésre álló eszköztár igen széles, általános egye  |
+| "Melyik ékszer egészíti ki legjobban az öltözékem?" Ismerõs a kérdés? A #Mobiltudós blog mai cikkében a magyar Liber8 Technology mûhelyének egyedüláll  |
+| NULL                                                                                                                                                    |
+| Boldog ünnepi kikapcsolódást kívánunk! :)                                                                                                               |
+| Városfotósok, figyelem! Elérkeztünk a Budapest útikönyvek margójára fotópályázatunk legizgalmasabb pontjához: az eredményhirdetéshez! A zsûrinek nem v  |
+| Az LG egyedi megoldásai - mint például a hátlapi gombok - már a belépõ szintû készülékeikben is megjelentek. Tudjatok meg mindent az LG Leonról a #Mob  |
+| Kövesd élõben a legújabb Galaxy bemutatóját! A Samsung Unpacked rendezvénye ma 18:30-kor kezdõdik. #TheNextGalaxy Visszaszámlálás és livestream: http:  |
+| Ha nyaralni mentek, az elõkészületek során érdemes a megfelelõ mobilappokkal is tervezni az útra. :) Az alkalmazásajánlóért olvassátok el a #Mobiltudó  |
+| Többen kértétek, hogy a Kapcsolat Program mozis nyereményjátékai ne csak Budapestre szóljanak, így ezúttal a helyszínt és a filmet is ti választhatját  |
+| Vége a láblógatásnak! Új tervek, fogadalmak, elhatározások... Osszátok meg velünk, ti milyen zenével pörögtök fel 2015-re és már készítjük is a legúja  |
+| "Dolgozzon helyetted az internet" - az IFTTT alkalmazás mottója nagyon találó. Kíváncsi vagy, mi mindent tudsz vele automatizálni? A #Mobiltudós blog   |
+| A #Mobiltudós blogon nemrég olvashattatok a Samsung Galaxy S6 Edge-rõl, természetesen nem marad el az S6 készüléktesztje sem, részletek az alábbi cikk  |
+| "A hangszerem a társam, akiben még sosem csalódtam.”                                                                                                    |
+| Polónyi Ágnes hárfamûvész egyik nagy álma vált valóra a BFZ - Budapesti Fesztiválzenekarba való                                                         |
+| Jelentõsen megújult elõdjéhez képest a Samsung Gear S2 okosóra. Intuitív kezelõfelület, kompatibilitás eltérõ márkájú készülékekkel... tudjatok meg ró  |
+| Már csak pár száz parti maradt a rekorddöntésig! Ezen a hétvégén a Gyerek Szigeten élõben is segíthetitek Bici nénit, sõt, ha megtaláljátok a magenta   |
+| Szép volt MKB Veszprém KC, nekünk ti vagytok a legjobbak! Köszönjük, hogy együtt szurkolhattuk végig ezt a hétvégét is, és megmutattuk, hogy együtt tö  |
+| Kezdd az új évet a Quimby-vel! Január elsején te is élõben hallgathatod a kedvenc Quimby dalaidat az újévi Varázszenén, hiszen a Telekom 4G hálózatána  |
+| Emlékeztek az elsõ G Flex-re? Egyedülálló jellemzõi voltak, elég csak a rendkívül rugalmas készülékházra vagy a regenerálódó hátlapra gondolni. A #Mob  |
+| Szombathelyre érkezett kisbuszunk, Töfi. Sok-sok játékkal és finom kávéval várunk titeket a Savaria téren. Keressetek minket! :)                        |
+| Elkészült Magyarország Filmtérképe! Köszönjük filmes tippjeiteket, az Asterix & Obelix: Isten óvja Britanniáttól kezdve A sasig sok hazánkban forgatot  |
+| A hétvégi budapesti Vivicittán 75 ország 26 ezer futója vett részt - köztük Tündéék is, akik családilag vágtak neki a különbözõ távoknak. Most szombat  |
+| Született fesztiválozó vagy, aki mindig ott van, ahol a nagy dolgok történnek? Jelentkezz BuddyGuide-nak! www.festivalbuddy.hu                          |
+|                                                                                                                                                         |
+| Készíts egy 15 másodpe                                                                                                                                  |
+| Imádsz utazni a családdal? Akkor vidd el szeretteidet Londonba vagy egy szuper hazai wellness hétvégére! Csak oszd meg õrült családi képeiteket Instag  |
+| Megkérdeztük, mi a legnagyobb álmotok 2015-ben, és rengeteg izgalmas, megható, bátor történetet küldtetek. Néhány kommentelõ fogadalmához készítettünk  |
+| A Valentin-nap sokszor fejtörést okoz a szerelmesek számára. A mi tippünk: ajándékozz élményt! Fotópályázatunkra érkezett szuper fotóitok alapján össz  |
+| Már csak néhány órát kell várni! A Trónok harca 5. évadának premier epizódja hajnali 3-kor elérhetõ lesz az HBO GO-n! http://bit.ly/TronokHarca         |
+| Itt az ideje, hogy feldobd a Messenger üzeneteid: filmesítsd õket a Clipdis-szel! A Facebook is felfedezte a magyar startup munkáját, nem véletlenül.   |
+| Még mindig nem tudod, hova menj az év legbulisabb napján? Kövesd szilveszter éjjel is az Insta City Guide közösségének élõ party-jelentését, hogy bizt  |
+| A Hõsök tere az egyik legismertebb budapesti helyszín, mely sok filmet megihletett már. Tudtok olyan magyar filmeket, amikben feltûnik? Írjátok meg ko  |
+| Idén nem tudsz kimenni a Sziget Festival Official -re? Kedvenc zenészeid fellépéseirõl akkor sem maradsz le!                                            |
+| Nézd a koncerteket élõben, bárhol is lég                                                                                                                |
+| Ismerjétek meg a filmforgatások talán legkevésbé ismert feladatkörét, a fénydublõrét! Patrícia mesélt nekünk, aki forgatott már többet között Sir Anth  |
+| Mérföld, uncia, Fahrenheit...nem biztos, hogy fejbõl meg tudjuk mondani, hogy ezek méterben, grammban, illetve Celsius fokban mit jelentenek. Van mego  |
+| Ti miért szerettek kávézni? Az íze miatt, vagy inkább az illatát szeretitek, esetleg a kávétól jönnek a legjobb ötleteitek? November 15. és december 2  |
+| A Cartoon Network Medvetesók címû új sorozatának medvéi, Grizz, Panda és Jegesmedve beépültek az életünkbe, köztünk járnak! :) Nagyvárosi csetlés-botl  |
+| A ma negyedszázados mobilszolgáltatás tiszteletére összeállítottunk egy playlistet az elmúlt 25 év ikonikus dalaival. Nektek melyik a kedvencetek? :)   |
+| Ha legközelebb egy Burger King étteremben jársz, mutasd fel rendeléskor a Kapcsolat kártyád és 15% kedvezményt kapsz a nem akciós termékekre! Július 1  |
+| Az LG G4 révén egy készülékben testesül meg mindaz, amit a gyártó az eddigi modellekben már-már tökéletesre csiszolt. A részletekért olvassátok el a #  |
+| A #Mobiltudós blog mai cikkében a FitBit Charge aktivitásmérõ tesztjét olvashatjátok! Nektek mennyi hiányzik az ajánlott napi 10000 lépéshez? :)        |
+| Hallgassátok meg Dj Dominique futó playlistjét, amit a ti kedvenc motiváló zenéitekbõl állított össze! A hétvégi Vivicittán is ezekkel a dalokkal bizt  |
+| Az okostelefonok világában gyakran hallani, hogy egy készülék "stílusos", "kecses kialakítású", vagy éppen "kifinomult". Nos, a CAT B15Q más. Õ egy dö  |
+| A JBL bluetooth hangszóróit már a Flip széria óta szeretjük, a #Mobiltudós blog mai cikkében kistestvérük, a JBL Go tesztjét olvashatjátok, kattintsat  |
+| Számotokra vannak olyan a dalok, amelyek biztos sikert aratnak egy mélyponton is? Teréz aerobic edzõként nagy figyelmet fordít a zenékre!               |
+| „Azt vettem                                                                                                                                             |
+| Tudtad, hogy Jack Bauer Budapesten is futott versenyt az idõvel? És azt, hogy az Evita egyes képsorai a Keleti pályaudvarnál készültek? Fotózz, vagy k  |
+| A #Mobiltudós blogban egy kis visszatekintéssel kezdõdik az év. A bloggereknek ezek voltak a kedvenc appjai 2014-ben! Na és nektek? :)                  |
+| “Életem elsõ futóversenye Nyergesújfalun volt, még gyerekkoromban. A távra nem emlékszem, csak arra, hogy rutintalanul rögtön az elsõ métereken sprint  |
+| Mitévõ légy, ha úton vagy és merülõben van a telefonod? A #Mobiltudós blog mai cikkében a Charge me Up mobileszköz-töltõ szolgáltatásáról olvashattok,  |
+| Kedves email Felhasználóink!                                                                                                                            |
+| Végre jó hírrel érkezünk, a levelezési rendszerünk teljes mértékben helyreállt! Kollégáink az elmúlt napokban teljes erõ                                |
+| Nézzétek meg válogatásunkat, melyet a Sziget Festival Official utolsó két napjának legjobb FestivalBuddy pillanataiból állítottunk össze! :)            |
+| #festival                                                                                                                                               |
+| Új tanév, új mobil? Ez is egy lehetõség, de a Lumia 640 nem csak iskolásoknak lehet az új kedvence. Tudjatok meg mindent a Microsoft középkategóriás ü  |
+| A karácsonyi készülõdés mindig tartogat meglepetéseket, amikor mindannyian ilyen arcot vágunk. Ugye, hogy te is? ;) Mutasd meg Facebookon vagy Instagr  |
+| Ki segít nekünk meglocsolni Lendvajakabfa virágait? Kommenteljetek, üzenjetek, és nem száradnak el a hölgyek! #locsodrón                                |
+| A #Mobiltudós blog mai cikkébõl mindent megtudhattok a Mobiltárca szolgáltatás mûködésérõl! Ne feledjétek, még van lehetõség belépõt nyerni Ákos Telek  |
+| Kalandra fel Instagramozók! Új fotópályázatot hirdetünk, melynek mottója: a Budapest útikönyvek margójára! Szerkesszünk együtt egy olyan városi kalauz  |
+| A kör bezárul - a Gear Circle esetében szó szerint és képletesen is. Modern dizájn, remek hangminõség és sokoldalú mûködés jellemzi a Samsung új heads  |
+| Nézzetek be a VOLT Fesztivál Official-re a fellépõk szemszögébõl! CrazyMe már fel is mászott Ecküre, ma ugyanis ott lesz a színpadon a Hõsök koncertjé  |
+| IP56, IP68... biztosan találkoztatok már ezekhez hasonló jelölésekkel az átlagosnál strapabíróbb készülékeknél. A #Mobiltudós blog mai cikkében megism  |
+| 1G, 2G, 3G, 4G - ti tudjátok, hogy melyik mit jelent, és mi köztük a különbség? Egyáltalán, mit rövidít a G betû? Pingvin és Tigris most mindent elmon  |
+| Az ünnepi készülõdés sokak számára az év legszebb idõszaka, de még ekkor is elõfordulhat, hogy nem várt kérdések merülnek fel... Mutassátok meg ti is   |
+| Éld át a méltán népszerû mese varázslatos történetét új megközelítésben! Regisztrálj weboldalunkon, és a 80 szerencsés között lehetsz, aki tripla mozi  |
+| A Kapcsolat Program nyereményjátékában most Ákos koncertjegyekért játszhattok! Regisztráljatok és tiétek lehet a 60 db páros jegy egyike Ákos december  |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+|                                                                           _c0                                                                           |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+| Ti mivel töltitek a munka ünnepét? Majális, vidámpark, kirándulás? Várjuk a tippeket Instagramon! #icg_bp                                               |
+| Még mindig nem késõ jelentkezni a Sziget Festival Official legmenõbb arcai közé! Csillantsd meg képességeidet egy Instagram videóban, és légy részese   |
+| Odett legemlékezetesebb karácsonyi élménye már elfoglalta helyét az örök emlékek padlásán, ami mellé most a te legkedvesebb ünnepi történeted is felke  |
+| Már te is alig várod, hogy ideérjenek az iPhone-ok legjei? Legyél az elsõk között, akik megkapják az iPhone 6s vagy iPhone 6s Plus készülékeket!        |
+| Elõr                                                                                                                                                    |
+| A Kapcsolat Program jóvoltából ezúttal Quimby koncertjegyekért játszhattok! ;) Regisztráljatok, és a tiétek lehet a 45 db páros jegy egyike a filmfelv  |
+| Lassan önálló kategóriává növi ki magát a "kistestvér" készülékek egyre bõvülõ sokasága. A #Mobiltudós blog mai cikkében az LG G4c tesztjét olvashatjá  |
+| Hosszú idõre szeretnél magadnak egy erõteljes és tekintélyt parancsoló okostelefont? A Samsung Galaxy Note 4 lehet a válasz a kérdésre. Olvasd el a No  |
+| „Bár a kézilabdapályán rengeteget mozgunk, én szeretek a szabadban is sportolni: az egyik kedvenc futóhelyem a Dunapart. Gyönyörû része a városnak, fõ  |
+| Fotópályázat, ami csak a családi pillanatokról szól! Oszd meg õrült élményeidet #telekomtravel hashtaggel az Instagramon, és a legjobb családi fotók s  |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+410 rows selected (71.022 seconds)
+0: jdbc:hive2://172.28.164.1:10000/default>
+| Ne tétovázz! Regisztrálj a www.4Gsakk.hu oldalon és játssz Bici nénivel egy partit, hogy összejöjjön a rekord! #4Gsakk                                  |
+|

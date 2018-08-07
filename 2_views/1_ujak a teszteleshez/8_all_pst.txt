@@ -1,0 +1,8 @@
+ 
+
+
+CREATE or replace VIEW `all_pst` AS select distinct  
+        `feed_all`.`message_id`                             
+       , regexp_replace(message,'\n',' ')  message                 
+       ,`feed_all`.`from_id` message_sender_id
+ from `mtsbi`.`feed_all`

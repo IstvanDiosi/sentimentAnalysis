@@ -1,0 +1,30 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			sntmnt views
+--			
+--			create view tlkm_pst_from_all_lke
+--
+--			A telekom feed-jére a TELEKOM által felrakott posztok 
+--			BÁRKI általi lájkolása
+--
+--
+--		last update
+--			20151225 created	d.i.
+--			20160127 telekom	d.i.
+--			
+--
+--		
+--
+-- --------------------------------------------------------------------
+create or replace view sntmnt.tlkm_pst_from_all_lke as
+select distinct
+       message_id
+      ,message 
+      ,liker_id
+from mtsbi.feed_all
+where
+     from_id='189246802995'
+and  fbi_object_reference='189246802995/feed'
+and  liker_id !='NULL';
+
+

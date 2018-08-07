@@ -1,0 +1,3 @@
+--    A 'from' problémája
+-- https://cwiki.apache.org/confluence/display/Hive/SQL+Standard+Based+Hive+Authorization#SQLStandardBasedHiveAuthorization-KnownIssues
+-- itt a megoldás, amit a HIVE-nak kell kiadni: :) >>>>>> set hive.support.quoted.identifiers=none;

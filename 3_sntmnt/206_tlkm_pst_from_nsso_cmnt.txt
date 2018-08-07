@@ -1,0 +1,40 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			sntmnt views			
+--			tlkm_pst_from_nsso_cmnt
+--			
+--		Author	Istvan Diosi 30/515-3902
+--
+--			
+--		A Telekom feedjére a felrakott olyan posztokra 
+--		érkezett commentek, amiket n
+--		nem sso-s user rakott fel és nem maga a Telekom
+--		
+--		
+--
+--		last update
+--
+--			20160310	create
+--			
+--			
+--
+--		
+--
+-- -------------------------------------------------------------------- 
+
+ CREATE VIEW `tlkm_pst_from_nsso_cmnt` AS select        
+   distinct                                             
+        `f`.`message_id`                                
+       ,`f`.`message`                                   
+       ,`f`.`from_id`                                   
+       ,`f`.`cmnt_message`                              
+       ,`f`.`cmnt_id`                                   
+       ,`f`.`cmnt_sender_id`                            
+ from `mtsbi`.`feed_all` `f`                            
+ left outer join `mtsbi`.`tlkm_sso` `tlkm`              
+   on `f`.`fbi_parent_id` = `tlkm`.`sso_user_id`        
+ where                                                  
+     `f`.`fbi_object_reference`='189246802995/feed'     
+ and `f`.`cmnt_message` !='NULL'                        
+ and `f`.`from_id` != '189246802995'                    
+ and `tlkm`.`sso_user_id` is null

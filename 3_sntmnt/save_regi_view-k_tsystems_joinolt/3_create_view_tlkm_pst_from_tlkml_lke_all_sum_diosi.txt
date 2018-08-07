@@ -1,0 +1,40 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			sntmnt views
+--			
+--			create view tlkm_pst_from_tlkml_lke_all_sum
+--
+--		last update
+--			20151225 created	d.i.
+--			
+--
+--		
+--
+-- --------------------------------------------------------------------
+--- segédtábla ------------------------------
+create or replace view lkesum_001 as
+select 
+       distinct
+       message_id
+      ,message 
+      ,liker_id
+from mtsbi.feed_all
+where
+    from_id='189246802995'
+and fbi_object_reference='189246802995/feed'
+and liker_id !='NULL';
+
+
+
+
+create or replace view sntmnt.tlkm_pst_from_tlkml_lke_all_sum as
+select message_id
+       ,message
+       ,count(*) like_osszesen
+ from lkesum_001
+group by message_id, message;
+
+
+
+
+

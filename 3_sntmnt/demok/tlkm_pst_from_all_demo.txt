@@ -1,0 +1,171 @@
+------------------------------------------------------------------
+----	tlkm_pst_from_all (ha ldwnl)
+-----------------------------------------------------------------
+ select substr(message,1,150) from tlkm_pst_from_all 
+-----------------------------------------------------------------
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+|                                                                           _c0                                                                           |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+| Üdv                                                                                                                                                     |
+|                                                                                                                                                         |
+| Ha lenne kapacitásuk válaszolnának a privát üzenetre-köszönöm                                                                                           |
+| A UPC-nél az ünnepek alatt lehet ingyenesen nézni a videótékát A Telekom is csinálhatna hasonlót !                                                      |
+| Ki ért velem egyett?!                                                                                                                                   |
+| Tök jó a 120-as net ami kéne hogy legyen rohadtul nincsen... csak tudnám miért nincsen már 23.-a óta...                                                 |
+| Most ott is nyomulsz, ahol persze... És ezt a stílust nem én kezdtem...                                                                                 |
+| Halló!                                                                                                                                                  |
+| Észrevettem, hogy a 6. és a 12. csatornán is a LifeNetvork megy! ??????                                                                                 |
+| Az mitõl van IPTV-nél ,hogy reggel 6:30 körül bekapcsolom a TV2-õt míg készülök munkába addig nézem,hallgatom a hiradót és mindig lefagy a csatorna ?!  |
+| Kedves Telekom!                                                                                                                                         |
+| Karácsonynak vége.  A tökünk tele van Ervinnel. Meddig kell még nézni a reklámot???                                                                     |
+| A 1412-be ügyfélszámmal vagy  telszámmal  és jelszóval lehet belépni. Az új megrendelõkre nem gondol a Szolgáltató?                                     |
+| Tisztelt Telekom! Azután szeretnék érdeklõdni, hogy nem várható-e Önöknél internet sávszélesség emelés?                                                 |
+| Udv. Karcagon van ügyfélszolgálat? Koszi                                                                                                                |
+| Kellemes Ünnepeket Mindenkinek!                                                                                                                         |
+| Az lenne a kérdésem, hogy egy új elõfizetéshez részletfizetéses konstrukcióban vásárolt készüléket van-e lehetõség egy                                  |
+| Sziasztok! Ez az app igen csak megkönnyítette a karácsonyi rohangálást. Szerintem próbáljátok ki.                                                       |
+| https://play.google.com/store/apps/details?id=com.wa                                                                                                    |
+| Lenne  egy  kérdésem a t. T- home - hoz !                                                                                                               |
+|                                                                                                                                                         |
+| Rendeltem  egy televízió készüléket,még karácsony elõtt majd egy  héttel .Aztán mikor a kollégájuk felhívo                                              |
+| Nézetek meg hálozatót a 18kerületbe "1188" körzetbe nem lehet Livestreamelni mert folyamat ledob a net                                                  |
+| "Kedves" Telekom! Lesz valaha is egy olyan nap amikor hiba mentes lesz a szolgáltatás???????? Az iptv jelenleg is nézhetetlen az internet szakadozik.   |
+| 1 hete szeretnék telefont vásárolni de nem lehet megrendelni mert az online vásárlásnál a válasszon települést pontnál minden szart kidob csak Budapes  |
+| a telefonnról amit irtam önökfelé köszöm högy elolvasták és arra kérem önöket amenyit kifizettem önöknek két szamszug sima telefonért  200000ft önökne  |
+| Köszönjük tegnap ota se tv se net se telefon nem semmi 1 éve mondták itt kabelcsere kell tegnap szerelõ kolléga 2 órát itt dekkolt  a semmiért ami tõl  |
+| Elkezdtem nézni egy filmet a Moziklub szolgáltatásból, megállítottam, visszatekertem 2 percet.... "ez a film jelenleg nem elérhetõ".....miért? Aztán e  |
+| Tudjátok már, hogyan búcsúztatjátok a 2015-ös évet? A szórakozóhelyeken a jó hangulat garantált, de egy szuper kis házibuli is emlékezetes lehet. Fõle  |
+| Ezt írtam  majd egy  napja  nektek,tetves telekom! Hol a beígért " néhány órás " válaszadási idõ ?!?!?!?!?!?!?!                                         |
+|                                                                                                                                                         |
+| ....... "                                                                                                                                               |
+| Péter Miskolci – Telekom                                                                                                                                |
+| Kedves Telekom!                                                                                                                                         |
+| Rendeltem a Kalendárium akcióban egy akkubankot, amit egy boltjukban vettem át. A termék hibásan mûködött gondoltam besétálok a boltba                  |
+| ~ezt beszéljük már meg>hogy lehet huawei mediapad T1 8.0~tabletet 990Ft befizetéssel+990FtX19havi kamatmentes törlesztõrészlettel elvinni>SIMkártyafüg  |
+| Volna egy kérdésem! Az új elõfizetõknek,miért olcsóbb a telefon mint a platina szintû elõfizetõknek? Új elõfizetõ az iphone 6s 59800 forintér veheti m  |
+| Ingyenélõ aljadék népség! Felejtsétek az egész cégeteket úgy ahogy van egy rakás szalmonellát nem adnék érte annyit sem ér semmi a szolgáltatásaitokbó  |
+| Tisztelt Telekom. Ma olvasta a barátom nagy megdöbbenésére,hogy az Euro sport 2 és a hd csatornákat is kiveszik  az alap a családi és a családi+hd cso  |
+| Van-e arra mód, hogy HOZZÁÉRTÕ mûszaki kollégával beszéljek, aki felvilágosítást tud adni egy területen használt 4G frekvenciákról, ugyanis a 4G eszkö  |
+| A kapcsolási ill hûség pontok hogyan válthatók be és 1 pont mennyit ér?                                                                                 |
+| A legnagyobb káosz a Telekom adminisztrácijában található! Mindent összekevernek mindennel! A lényeg: minél több legalább 2 éves szerzõdést megkötni a  |
+| KEDVES TELEKOM!                                                                                                                                         |
+| ADJANAK MÁR MEG EGY OLYAN TELEFONSZÁMOT, VAGY A 1430--ON BELÜL OLYAN MENÜPONTOT, AMI KAPCSOL NEKEM EGY ÜGYINTÉZÕT!!!!!!!!! MERT NEKEM                   |
+| Tisztelt Hölgyem/Uram!                                                                                                                                  |
+|                                                                                                                                                         |
+| Szeretném megkérdezni, hogy lesz -e bármilyen lehetõség, hogy a Eurosport2-öt nézhesse az ember január 5 után is Nagyvilág cso                          |
+| Egyszerû kérdésem lenne:                                                                                                                                |
+|                                                                                                                                                         |
+| Miért nem tudom a TV-GO szolgáltatást használni? Az alkalmazás le van töltve, be vagyok jelentkezve, de az összekapcsolásnál                            |
+| Tisztelt Telekom                                                                                                                                        |
+|                                                                                                                                                         |
+| A mai napon kritikán kivüli viselkedést tapasztaltam a Nyíregyházi korzó t-pontban lévõ munkatársaiktól már bánom hogy nem készitet                     |
+| Kezdek kiakadni az Ervintõl :) A natgeon 15 percenként leadják :) Micsoda problémáim vannak :D Komolyra fordítva a szót. Voltam itt elõfizetõ. Túláraz  |
+| APPLE IPHONE 6 mióta lett kifutó termék ?                                                                                                               |
+| Ha elfogy, újabb készlet nem várható.                                                                                                                   |
+| Már nem lehet kapni ?                                                                                                                                   |
+| Mert a weboldal azt jelzi hogy már nem lesz kész                                                                                                        |
+| Elõzõ havi számlámat,amit december 2-ig kelett volna befizetni addig nem tudom teljesiteni, amig nem kapok csekket.Eddig én még nem kaptam meg.         |
+| Kedves Telekom Magyarország!                                                                                                                            |
+| Mi a ****** ****** nem tudnak felhívni az emberek két napja?                                                                                            |
+| 6x indítottam újra már a telefont, a mai nap névnapom alka                                                                                              |
+| SZIASZTOK.BOLDOG ÚJ ÉVET KIVÁNOK A TELEKOM DOLGOZÓINAK ÉS MINDEN ÜGYFÉLNEK.                                                                             |
+| Unod már a sablonos fogadalmakat? Akkor jó helyen jársz! A legnagyobb klasszikusokból és az újhullámos ígéretekbõl most te is összegyúrhatsz magadnak   |
+| Szilveszter napján se tv,se internet,ez aztán a szolgáltatás!köszönjük Telekom!!!                                                                       |
+| Összeállt a szilveszteri Spotify playlistünk: viszlát 2015, üdvözlünk 2016!                                                                             |
+| Boldog új évet kívánunk! :)                                                                                                                             |
+| http://bit.ly/Szilveszter_2015                                                                                                                          |
+| Hello irtam üzit irnál ha feljösz                                                                                                                       |
+| Hello                                                                                                                                                   |
+| Nem hajlandó megválni a Telekomtól nem baj hogy nem lesz benne az IP TV családi csomagban az Eurosport 2 hanem a nagyvilág csomagban lesz a Discovery   |
+| 2016 a váltás éve lesz.                                                                                                                                 |
+| 2016 csodás év ,az idei lesz az elsõ év hogy nem kell idegeskedni se a TV, se  a NET se a Telefon se a Mobil miatt.                                     |
+| Ugyanis 2015-ben mindegyik szolgál                                                                                                                      |
+| Tisztelt Telekom!                                                                                                                                       |
+| Írtam privát üzenetet önöknek régóta elhúzódó számlázási problémáink rendezése végett.                                                                  |
+| Mielõbi megkeresésüket várom!                                                                                                                           |
+| Tisztelettel B                                                                                                                                          |
+| Hello,  vettem egy Sony Z5 compactot, és sajnos hívás közben lezár a kijelzõ,  amit nem lehet kikapcsolni. Így pl az ügyfélszolgálatot sem tudom felhí  |
+| Üdv!Érdeklõdnék hogy a hûségidõm 2016.04.04-én jár le de ha belépek az oldalamra akkor aztirja hogy három nap múlva lecserélhetem a készülékemet!Ez va  |
+| Sziasztok! Diákként LIKE S díjcsomagom van. Sokszor azt tapasztalom, hogy a tényleges, csomagban foglalt kedvezmény nem egészen kerül levonásra, pedig  |
+| Kivette a Telekom a  BBC Entertainment -et a kínálatból!                                                                                                |
+|                                                                                                                                                         |
+| Súlyos és visszavonhatatlan szerzõdésszegésként értelmezem!                                                                                             |
+|                                                                                                                                                         |
+| Szerzõdéses akaratom kimondo                                                                                                                            |
+| "Kedves"Szolgáltatóm! Nem éppen korrektül jártatok el ,mikor is a leveletek alapján, amiben megint csatorna csoportosításról írtok (mint minden év ele  |
+| Arról lehet tudni információt hogy az Lg G4 6.0-s frissítése mikor érkezik?                                                                             |
+| Szép napot!Az lenne a kérdésem,hogyan tudom letölteni és kinyomtatni egy készülék garancia jegyét?Az online felületen egyszerüen nem boldogulok!Elõre   |
+| Segítséget kérek! Január 1-tõl letiltották a BBC Entertainment csatornát, de nem találom a helyette beígért másik BBC csatornát. A minicsomagot egyedü  |
+| Sajnos ez a Tréhóm egyre szánalmasabb: van pofájuk kivenni az Eurosport 2 (HD)-t a Családi +HD-ból (miért pont itt lenne a helye(?) és átrakni a nagyv  |
+| Sziasztok, Chrome böngészõben mikor lesz elérhetõ a TV GO szolgáltatás? Illetve Windows 10 Mobile-ra mikor várható a beígért TVGO? :)                   |
+| Kedves Telekom! Ha már napi 1 órát mûködne az internet zavartalanul, én már nagyon boldog lennék :(                                                     |
+| 2016.01.01-én késõ este jött feltöltõkártyásomra egy sms                                                                                                |
+| a szöveg: Tisztelt Ügyfelünk! Kampány6                                                                                                                  |
+| elõfizetését töröltük köszönjük hogy igénybe vette                                                                                                      |
+| s                                                                                                                                                       |
+| 0FT KEZDÖRÉSZLETRE LEHET TV VÁSÁROLNI?                                                                                                                  |
+| Helló! Szomorúan láttam, hogy nem jön be a BBC Entertainment, pedig külön emiatt fizettem elõ egy minicsomagra. Az érdekelne, hogy át lett-e rakva más  |
+| Szeretnek rendelni egy ijen tévét !                                                                                                                     |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+|                                                                           _c0                                                                           |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+
+| Hello. Erdekelne, hogy napok ota(beleertve at unnepek alatt is) miert megy el az internet es tv fel orankent kb 4-5 percre??! Ez nem allapot! Jo lenne  |
+| 2016.01.02.Du 16 h-tól nincs  net,tv,vonalas telefonunk Nem csak nekünk az egész lakótelepnek! Vajon mi tartja vissza a szolgáltatót attól,hogyA S kij  |
+| 2016.01.02.Du 16 h-tól nincs net,tv,vonalas telefonunk Nem csak nekünk az egész lakótelepnek! Vajon mi tartja vissza a szolgáltatót attól,hogy kijavít  |
+| Kedves Telekom! Igazán reméltük, hogy idén sikerül folyamatos szolgáltatással kezdeni az évet, de most sem sikerült. Hogy lehet ez ismét?               |
+| 2016.01.03-én reggel jött feltöltõkártyásomra egy sms                                                                                                   |
+| a szöveg:                                                                                                                                               |
+|  Tisztelt Ügyfelünk! Kampány6                                                                                                                           |
+| elõfizetését töröltük köszönjük hogy igénybe vette                                                                                                      |
+| szo                                                                                                                                                     |
+| Tisztelt Telekom!                                                                                                                                       |
+| Kolléganõm Erzsébeten lakik,és állítólag 3 napja nincs tv,telefon,internet!Vajon miért?                                                                 |
+| Kezdhetném, hogy tisztelt Telekom stb stb, de nem . Biztos nem csak én vagyok így vele, hogy igénybe vette az e-pack szolgáltatásukat mert kényelmeseb  |
+| Tisztelt Telekom!                                                                                                                                       |
+| Érdeklõdni szeretnék,hogy 2015 dec 19-óta nincs mobilinternet szolgáltatásom baján,senkit nem tudtam elérni a problémával!                              |
+| Mikorra v                                                                                                                                               |
+| Kedves Telekom,                                                                                                                                         |
+|                                                                                                                                                         |
+| köszönöm az SMS-t, hogy a " kampány6-os elõfizetését töröltük". De ez mi volt? Mi lesz helyette? Percdijak hogy változnak?                              |
+| Üdv. Telekom! Olyan kérdésem lenne, hogyan lehetséges PORT-ot nyitni egy Alcatel W800 Stick-en belül?? Ugyanis van ahol nem tudok csatlakozni online.   |
+| Érdeklõdnék, hogy ha egy telefonnál azt írja a honlap " -elfogyott, újjabb készlet várható"! Akkor kb mennyi idõ, míg újra megjelenik és rendelni lehe  |
+| T.com.Miért vették el e BBC entertaiment-et,amikor a                                                                                                    |
+|  szerzõdésünkbe szerepel. szerzõdésszegés                                                                                                               |
+| MT ügyfélazonosító:477238580                                                                                                                            |
+| Intézzetek már Iphone 6s Plus-t 64Gb-osat!!!!                                                                                                           |
+| Üdv!                                                                                                                                                    |
+| Érdeklõdnék, hogy mi a különbség a Life Network és a Life Netw csatornák között? Mert szinte majdnem egymás után van a csatonakiosztásban és ugya       |
+| Üdv jó volna már ide érnének fejlesztésel Dánsznetmiklósra                                                                                              |
+| Tisztelt Telekom!                                                                                                                                       |
+| Érdeklõdni szeretnék, hogy hol tudok utánanézni a hûségpontjaim felhasználásának! A dec. esedékességû számla szerint 392+288 pontom                     |
+| Ma - jan.4-én -  a Mammut emeleti üzletében jártunk. Kb. 20 perc várakozás után kerültünk sorra. Sok, szerteágazó problémám volt. KRISZTINA a 9-es pul  |
+| 2015-ben nagyon sok élménnyel gazdagodtunk, köszönjük, hogy velünk voltatok! Reméljük, hogy a 2016-os év is ilyen eseménydús lesz! :) #egyuttmegjobb    |
+| Boldog Új Évet Telekomnak :) ....esetleg lesz olyan tervezet a Telekomnál is mint a UPC-Wifi free ?? Telekom Wifi-free néven ? és net, tv elõfizetésse  |
+| Tisztelt Telekom! Szerettem volna egy internetes regisztrációt csinálni a weboldalon, hogy a szolgáltatások közül kikapcsolhassak 1-2-t, mert nem álta  |
+| tisztelt telekom kõszõnõm szépen hogy 1 honapra bonusz csatornára  eurosport 2  nézhetem    Boldog újévet kivánok telekomnak   jolene viszakapnák végl  |
+| T. Telekom!                                                                                                                                             |
+|                                                                                                                                                         |
+| Két levelemre várom válaszukat, melyet az internetes ügyfélszolgálaton át küldtem önöknek. Problémámat személyesen sem sikerült üzletükbe               |
+| B.Ú.É.K ! Segitséget  szeretnék  kérni,  mivel a  telefonon 12xer  hivtam  a  THom.-ot,  a  gép  nem  kapcsolt  az  ügyintézõhöz.  Többszöri  személye  |
+| Tisztelt Telekom!                                                                                                                                       |
+|                                                                                                                                                         |
+| Érdeklõdni szeretnék mikorra várható az az átmeneti idõszak vége ami elvileg dolgoznak és vélhetõen tudnak mondani hozzávetõlegesen                     |
+| Üdv! Hol a 10 mb-om?? szinte egyfolytában használhatatlan......                                                                                         |
+| NULL                                                                                                                                                    |
+| Köszönöm a 30 Gigás netet, hogy az ügyfélszolgálatos hülyének néz és az 5 perc alatt háromszor elmondott "áramtalanítsa a modemet....." dumát. Gratulá  |
+| Gondolom a számla is arányosan kevesebb lesz........                                                                                                    |
+| LG G4!! Esti Fotózás                                                                                                                                    |
+| Szerintetek,mennyire "élvezhetõ" a szolgaltatas barmely formaja !?!!!! Már hónapok óta tartô folyamat, csak ma sikerült 1 tesztet kesziteni . :((((     |
+| Mit mondjak?  Megöregedtem....                                                                                                                          |
+| FYI: Pesti fülkéket nem lehetne így átalakítani? A fõvárosi közgyûlés is támogathatná...                                                                |
+| NULL                                                                                                                                                    |
+| http://www.delmagyar.hu/szeged_hirek/nehez_megszabadulni_a_telekomtol/2457561/                                                                          |
+| Ezzel a cikkel én spc nem 100%-ban értek egyet!                                                                                                         |
+|                                                                                                                                                         |
+| Elöljáróban megjegyzem                                                                                                                                  |
+| A jelenlegi 5120150018004149 számú számlám tartalmaz egy 590 Ft - os készülék biztosítási díjat. Ezt szeretném töröltetni, a következõ számlán már ne   |
+| Tisztelt Telekom!                                                                                                                                       |
+| http://www.speedtest.net/my-result/4951854862                                                                                                           |
+| Íme a 20 Megás netem :D Tudom, a garantált megvan, de a 20-nak ez kb 60 százaléka. Jó                                                                   |
+| "Munkatársunk jelentkezéséig szíves türelmét kérjük."                                                                                                   |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+--+

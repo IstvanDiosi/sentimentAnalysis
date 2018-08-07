@@ -1,0 +1,23 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			feed basic and lateral views
+--			
+--			create user_sso_lat_ldwnl
+--
+--		last update
+--			20151215 created	d.i.
+--
+--		
+--
+-- --------------------------------------------------------------------
+
+-- create section -----------------------------------------------------
+create or replace view mtsbi.user_sso_lat_dwnl as
+select f.* 
+from 
+     mtsbi.user_sso_lat f 
+     right join (select id,max(fbi_download_time) last_dwnld from mtsbi.user_sso_lat group by id) m
+ on        
+      m.last_dwnld = f.fbi_download_time
+where
+     m.id  = f.id; 

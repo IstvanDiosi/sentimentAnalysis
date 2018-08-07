@@ -1,0 +1,36 @@
+-- --------------------------------------------------------------------------------------------------
+-- 		description
+--			sntmnt views
+--			
+--			create view sntmnt.end_result_message
+--			
+--			Az end_result_all szûkítése azokra a rekordokra,
+--    			ahol van comment is.
+
+--			
+--		Author	Istvan Diosi 30/515-3902
+--
+--		
+--			
+--		last update
+--
+--			20160423 create			d.i
+--			
+--			
+--			
+--		
+--
+-- --------------------------------------------------------------------------------------------------
+
+create or replace view sntmnt.end_result_comment as
+select 
+      message_sender_id
+     ,message_id
+     ,cmnt_sender_id
+     ,cmnt_id
+     ,ktg
+     ,tag
+     ,sentiment 
+from  end_result_all 
+where cmnt_id!='NA';
+

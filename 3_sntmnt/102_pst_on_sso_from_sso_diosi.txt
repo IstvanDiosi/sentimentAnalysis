@@ -1,0 +1,92 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			sntmnt views
+--			create view pst_on_sso_from_sso
+--			
+--		Author	Istvan Diosi 30/515-3902
+--
+--			
+--		Az SSO-s userek feedjére felrakott SSO-s userektõl származó posztok
+--		
+--
+--		last update
+--
+--			20160221  újigényként
+--			20160318  messge_created_time befûzése
+--			20160501  regular exp. alkapmalzása a message-nél
+--				  regexp_replace(f.message,'\n',' ') 
+--		                  regexp_replace(substring(message,1,50),'\n',' ')
+--			
+--
+--		
+--
+-- --------------------------------------------------------------------
+create or replace view sntmnt.pst_on_sso_from_sso as
+select distinct
+       fbi_parent_id
+      ,from_id
+      ,message_created_time
+      ,message_id
+      ,regexp_replace(message,'\n',' ')  message
+from mtsbi.feed_sso f
+ join mtsbi.tlkm_sso tlkm
+    on f.from_id = tlkm.sso_user_id
+where 
+        message!='NULL' 
+   and  length(trim(regexp_replace(message,'\n',' ')))!=0
+   and  substr(message_created_time,1,10)>'2015-01-01';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+********************************************************
+select count(*)
+from mtsbi.feed_sso f
+
+rekordszám >>>>>>> 0 ez hibának látszik!!!!
+
+--------------------------------------------
+Ami megy a T-Systems-es szerveren
+--------------------------------------------
+select * 
+  from 
+      mtsbi.feed_all f
+  join tlkm_sso tlkm
+   on trim(f.fbi_parent_id) = trim(tlkm.sso_user_id);
+
+és ami nem mûködik a Telekom-on, mert ott a feed-eknél a parent az a page és így az fbi_parent_id a page id-ja
+viszont, ha nem a feed-tulajdonosának, hanem a message küldõjének az sso-sága fontos, akkor a messagre vonatkoz from_id lehetnek a nyerõ
+
+select count(*) 
+  from 
+       mtsbi.feed_all f
+      ,tlkm_sso tlkm
+where f.from_id = tlkm.sso_user_id;
+
+
+/////////////////
+create or replace view sntmnt.pst_from_sso as
+select distinct
+       fbi_parent_id
+      ,from_id 
+      ,message_id
+      ,message
+from  mtsbi.feed_all f
+     ,mtsbi.tlkm_sso tlkm
+where 
+        f.from_id = tlkm.sso_user_id
+   and  message!='NULL' 
+   and  length(trim(message))!=0
+

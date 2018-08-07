@@ -1,0 +1,23 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			feed basic and lateral views
+--			
+--			create comments_all_lat_ldwnl
+--
+--		last update
+--			20151216 created	d.i.
+--
+--		
+--
+-- --------------------------------------------------------------------
+
+-- create section -----------------------------------------------------
+create or replace view mtsbi.comments_all_lat_dwnl as
+select f.* 
+from 
+     mtsbi.comments_all_lat f 
+     right join (select id,max(fbi_download_time) last_dwnld from mtsbi.comments_all_lat group by id) m
+ on        
+      m.last_dwnld = f.fbi_download_time
+where
+     m.id  = f.id; 

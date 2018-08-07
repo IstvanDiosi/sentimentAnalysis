@@ -1,0 +1,29 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			sntmnt views			
+--			tlkm_pst_from_tlkm
+--			
+--		Author	Istvan Diosi 30/515-3902
+--
+--			
+--		A Telekom feedjére a telekom által felrakott posztok 
+--		
+--		
+--
+--		last update
+--
+--			20160221  újigényként
+--			
+--			
+--
+--		
+--
+-- -------------------------------------------------------------------- 
+CREATE VIEW `tlkm_pst_from_tlkm` AS select distinct         
+       `feed_all`.`message_id`                              
+       ,`feed_all`.`message`                                
+       ,`feed_all`.`from_id`                                
+ from `mtsbi`.`feed_all`                                    
+ where                                                      
+      `feed_all`.`from_id`='189246802995'                   
+ and  `feed_all`.`fbi_object_reference`='189246802995/feed'

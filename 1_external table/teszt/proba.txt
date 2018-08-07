@@ -1,0 +1,41 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			create mtsbi.fb_user external table
+--
+--		last update
+--			20151212 created	d.i.
+--
+--		
+--
+-- --------------------------------------------------------------------
+
+-- drop section -------------------------------------------------------
+drop table mtsbi.fb_user;
+
+-- create section -----------------------------------------------------
+CREATE EXTERNAL TABLE mtsbi.proba(
+username 		string,
+first_name 		string,
+last_name 		string,
+name 			string,
+hometown 		string,
+relationship_status 	string)
+ROW FORMAT SERDE 'org.openx.data.jsonserde.JsonSerDe'
+LOCATION '/user/hdfs/facebook/SMCCAPP/user/';
+
+
+
+hometown struct<id:string,name:string>,
+
+quotes 			string,
+favorite_teams 		array<struct<id:string,name:string>>,
+favorite_athletes 	array<struct<id:string,name:string>>,
+education 		array<struct<school:struct<id:string,name:string>,type:string,year:struct<id:string,name:string>>>,
+bio 			string,
+sports 			array<struct<id:string,name:string>>,
+work 			array<struct<position:struct<id:string,name:string>,start_date:string,end_date:string,employer:struct<id:string,name:string>>>,
+location 		struct<id:string,name:string>,
+birthday 		string,
+age_range 		string,
+religion 		string,
+political 		string,

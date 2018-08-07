@@ -1,0 +1,24 @@
+
+
+----------- pre_app views ----------------
+
+
+
+
+
+----------- basic an lateral views ------------------
+user_all	***
+user_sso  	***
+user_nsso	***
+user_ldwnl	***
+user_sso_ldwnl	***
+user_nsso_ldwnl	***
+
+-------------------------------------------
+feed_all	***
+feed_sso  	***
+feed_nsso	***
+feed_ldwnl	***
+feed_sso_ldwnl  ***
+feed_nsso_ldwnl ***
+

@@ -1,0 +1,6 @@
+/home/res.hu.corp/facebook/scripts/hive_cntrl/cmnt_on_allpst_from_sso.hql
+/home/res.hu.corp/facebook/scripts/hive_cntrl/cmnt_on_mtpst_from_all.hql
+/home/res.hu.corp/facebook/scripts/hive_cntrl/cmnt_on_notmtpst_from_all.hql
+/home/res.hu.corp/facebook/scripts/hive_cntrl/pst_from_sso.hql
+/home/res.hu.corp/facebook/scripts/hive_cntrl/pst_on_mt_from_not_mt.hql
+/home/res.hu.corp/facebook/scripts/hive_cntrl/pst_on_sso_from_sso.hql

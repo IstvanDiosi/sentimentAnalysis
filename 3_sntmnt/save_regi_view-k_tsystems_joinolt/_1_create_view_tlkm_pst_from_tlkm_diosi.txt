@@ -1,0 +1,26 @@
+-- --------------------------------------------------------------------
+-- 		description
+--			sntmnt views
+--			
+--			create view tlkm_pst_from_tlkm
+--
+--		A tlkm feedjére a TLKM által felrakott posztok 
+--		és a posztoló azonosítója. 
+--
+--		last update
+--			20151225 created	d.i.
+--			201160126 telekom	d.i.
+--			
+--
+--		
+--
+-- --------------------------------------------------------------------
+create or replace view sntmnt.tlkm_pst_from_tlkm as
+select distinct
+       message_id
+      ,message 
+      ,from_id
+from mtsbi.feed_all
+where
+     from_id='189246802995'
+and  fbi_object_reference='189246802995/feed';

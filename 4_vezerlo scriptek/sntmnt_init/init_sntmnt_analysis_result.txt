@@ -1,0 +1,50 @@
+# ------------------------------------------------------------------------------------------------
+#       name     : init_sntmnt_analysis_result
+#       auth     : Diosi Istvan
+#       descript : A script a sentiment elemzés teljes inicalizalasat vegzi, biztonsagi mentesek
+#                  nelkul
+#
+#
+#
+#       last upd.: 2016-05-01
+#
+#
+# ------------------------------------------------------------------------------------------------
+
+#!/bin/bash
+# init
+function pause(){
+   read -p "$*"
+}
+
+# ...
+clear
+echo " ------------------------------------------------------------------------------------"
+echo " !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+echo " ------------------------------------------------------------------------------------"
+echo " Az alabbi script futtatasa azt eredmenyezi, hogy a HDFS-re letoltott facebook ada-"
+echo " tokbol torténo elemzesek eredmenye TORLODIK."
+echo " "
+echo " A script futtatasanak akkor van ertelme, ha a technikai okok miatt a teljes"
+echo " elemzest ujra el akarjak kezdeni."
+echo " "
+echo " D.I. +36 30 5153902"
+echo " ------------------------------------------------------------------------------------"
+echo " !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+echo " ------------------------------------------------------------------------------------"
+echo " "
+echo " "
+pause 'Ha biztos abban, hogy ezek utan is futtatni akarja, akkor usson egy [ENTER]-t...........'
+
+echo " --- kezdõdik -------------------------------------------------------------"
+# ------- !!!!!!!!!!! Az elemzett result-ok törlése  !!!!!!!!!!!!!!!!! ------------
+hadoop fs -rm -skipTrash /user/facebook/sntmnt_result/tag/*
+hadoop fs -rm -skipTrash /user/facebook/sntmnt_result/smt/*
+hadoop fs -rm -skipTrash /user/facebook/sntmnt_result/ktg/*
+# ------- !!!!!!!!!!! Az elemzett id-k törlése  !!!!!!!!!!!!!!!!! -------------------
+hadoop fs -rm -skipTrash /user/facebook/analyzed/cmnt/*
+hadoop fs -rm -skipTrash /user/facebook/analyzed/pst/*
+
+
+
+
